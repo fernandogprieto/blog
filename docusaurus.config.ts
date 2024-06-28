@@ -2,22 +2,18 @@ import type * as Preset from '@docusaurus/preset-classic'
 import type { Config } from '@docusaurus/types'
 import { themes } from 'prism-react-renderer'
 import social from './data/social'
-import type { GiscusConfig } from './src/components/Comment'
 
-const beian = '闽ICP备2020017848号-2'
-const beian1 = '闽公网安备35021102000847号'
 
 const config: Config = {
-  title: '愧怍',
-  url: 'https://kuizuo.cn',
+  title: 'Cloud Journey',
+  url: 'https://fernandogprieto.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
-  projectName: 'blog',
+  projectName: 'fgp-web',
   customFields: {
-    bio: '道阻且长，行则将至',
+    bio: 'Cloud Engineer, IT Specialist',
     description:
-      '是一个由愧怍创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
+      'A personal blog to share knowledge about cloud infrastructure and IT operations using Docusaurus。',
   },
   themeConfig: {
     // announcementBar: {
@@ -28,15 +24,15 @@ const config: Config = {
     metadata: [
       {
         name: 'author',
-        content: '愧怍',
+        content: 'Fernando Prieto',
       },
       {
         name: 'keywords',
-        content: 'blog, javascript, typescript, node, react, vue, web',
+        content: 'blog, portfolio, linux, docker, kubernetes, terraform, cloud, python, aws, azure, gcp, openstack',
       },
       {
         name: 'keywords',
-        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向, 主攻ts全栈',
+        content: 'Open source, AI enthusiast, Cloud native, IaaC, Infraestructure as a code',
       },
     ],
     docs: {
@@ -45,22 +41,23 @@ const config: Config = {
       },
     },
     navbar: {
+      title: 'Fernando Prieto',
       logo: {
-        alt: '愧怍',
+        alt: 'logo',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
       hideOnScroll: true,
       items: [
         {
-          label: '博客',
-          position: 'right',
-          to: 'blog',
-        },
-        {
-          label: '项目',
+          label: 'Project',
           position: 'right',
           to: 'project',
+        },
+        {
+          label: 'Blog',
+          position: 'right',
+          to: 'blog',
         },
         {
           label: '更多',
@@ -128,11 +125,7 @@ const config: Config = {
         },
       ],
       copyright: `
-        <p style="margin-bottom: 0;"><a href="http://beian.miit.gov.cn/">${beian}</a></p>
-        <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${
-          beian1.match(/\d+/)?.[0]
-        }" >${beian1}</a></p>
-        <p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>
+        <p>Copyright © 2023 - PRESENT 愧怍 Built with Docusaurus.</p>
         `,
     },
     algolia: {
@@ -167,14 +160,6 @@ const config: Config = {
         },
       ],
     },
-    giscus: {
-      repo: 'kuizuo/blog',
-      repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
-      category: 'General',
-      categoryId: 'DIC_kwDOF7NJDM4CPK95',
-      theme: 'light',
-      darkTheme: 'dark_dimmed',
-    } satisfies Partial<GiscusConfig>,
     tableOfContents: {
       minHeadingLevel: 2,
       maxHeadingLevel: 4,
@@ -215,10 +200,6 @@ const config: Config = {
     'docusaurus-plugin-image-zoom',
     '@docusaurus/plugin-ideal-image',
     [
-      'docusaurus-plugin-baidu-tongji',
-      { token: 'c9a3849aa75f9c4a4e65f846cd1a5155' },
-    ],
-    [
       '@docusaurus/plugin-pwa',
       {
         debug: process.env.NODE_ENV === 'development',
@@ -258,7 +239,7 @@ const config: Config = {
         feedOptions: {
           type: 'all',
           title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.>`,
         },
       },
     ],

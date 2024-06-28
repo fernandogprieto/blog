@@ -1,7 +1,6 @@
 import type { BlogSidebar } from '@docusaurus/plugin-content-blog'
 import { HtmlClassNameProvider, ThemeClassNames } from '@docusaurus/theme-common'
 import { BlogPostProvider, useBlogPost } from '@docusaurus/theme-common/internal'
-import Comment from '@site/src/components/Comment'
 import { cn } from '@site/src/lib/utils'
 import BackToTopButton from '@theme/BackToTopButton'
 import BlogLayout from '@theme/BlogLayout'
@@ -25,7 +24,6 @@ function BlogPostPageContent({
     hide_table_of_contents: hideTableOfContents,
     toc_min_heading_level: tocMinHeadingLevel,
     toc_max_heading_level: tocMaxHeadingLevel,
-    hide_comment: hideComment,
   } = frontMatter
 
   return (
@@ -44,7 +42,6 @@ function BlogPostPageContent({
           <BlogPostPaginator nextItem={nextItem} prevItem={prevItem} />
         </div>
       )}
-      {!hideComment && <Comment />}
       <BackToTopButton />
     </BlogLayout>
   )

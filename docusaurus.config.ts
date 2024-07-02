@@ -90,11 +90,13 @@ const config: Config = {
           ],
         },
         {
-          title: '社交媒体',
+          title: 'Social Media',
           items: [
-            { label: '关于我', to: '/about' },
+            { label: 'About me', to: '/about' },
+            { label: 'LinkedIn', href: social.linkedin.href },
             { label: 'GitHub', href: social.github.href },
-            // { label: 'Twitter', href: social.x.href },
+            { label: 'X', href: social.x.href },
+            { label: 'Email', href: social.email.href },
             { label: 'Discord', href: social.discord.href },
           ],
         },
@@ -109,7 +111,7 @@ const config: Config = {
           ],
         },
         {
-          title: '更多',
+          title: 'More',
           items: [
             { label: '友链', position: 'right', to: 'friends' },
             { label: '导航', position: 'right', to: 'resources' },

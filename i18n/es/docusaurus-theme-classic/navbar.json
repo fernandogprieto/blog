@@ -1,0 +1,42 @@
+{
+  "title": {
+    "message": "Fernando Prieto",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Project": {
+    "message": "Project",
+    "description": "Navbar item with label Project"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.更多": {
+    "message": "更多",
+    "description": "Navbar item with label 更多"
+  },
+  "item.label.归档": {
+    "message": "归档",
+    "description": "Navbar item with label 归档"
+  },
+  "item.label.笔记": {
+    "message": "笔记",
+    "description": "Navbar item with label 笔记"
+  },
+  "item.label.资源": {
+    "message": "资源",
+    "description": "Navbar item with label 资源"
+  },
+  "item.label.友链": {
+    "message": "友链",
+    "description": "Navbar item with label 友链"
+  },
+  "item.label.工具推荐": {
+    "message": "工具推荐",
+    "description": "Navbar item with label 工具推荐"
+  }
+}

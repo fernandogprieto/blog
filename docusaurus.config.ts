@@ -60,14 +60,14 @@ const config: Config = {
           to: 'blog',
         },
         {
-          label: '更多',
+          label: 'Nexus',
           position: 'right',
           items: [
-            { label: '归档', to: 'blog/archive' },
-            { label: '笔记', to: 'docs/skill' },
-            { label: '资源', to: 'resources' },
-            { label: '友链', to: 'friends' },
-            { label: '工具推荐', to: 'docs/tools' },
+            { label: 'Archive', to: 'blog/archive' },
+            { label: 'Skill', to: 'docs/skill' },
+            { label: 'Resources', to: 'resources' },
+            { label: 'Friends', to: 'friends' },
+            { label: 'Tools', to: 'docs/tools' },
           ],
         },
         {
@@ -80,13 +80,13 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: '学习',
+          title: 'Nexus',
           items: [
-            { label: '博客', to: 'blog' },
-            { label: '归档', to: 'blog/archive' },
-            { label: '技术笔记', to: 'docs/skill' },
-            { label: '实战项目', to: 'project' },
-            { label: '前端示例', to: 'https://example.kuizuo.cn' },
+            { label: 'Blog', to: 'blog'},
+            { label: 'Archive', to: 'blog/archive' },
+            { label: 'Projects', to: 'project' },
+            { label: 'Skill', to: 'docs/skill' },
+            { label: 'Frontend Examples', to: 'https://example.kuizuo.cn' },
           ],
         },
         {
@@ -101,23 +101,23 @@ const config: Config = {
           ],
         },
         {
-          title: '网站',
+          title: 'More',
           items: [
-            { label: 'js反混淆', to: 'https://js-deobfuscator.kuizuo.cn' },
+            { label: 'js', to: 'https://js-deobfuscator.kuizuo.cn' },
             { label: 'cyberChef', to: 'https://gchq.github.io/CyberChef' },
-            { label: 'api服务', to: 'https://api.kuizuo.cn' },
-            { label: '便民服务', to: 'https://service.kuizuo.cn' },
-            { label: '站点监控', to: 'https://uptime.kuizuo.cn' },
+            { label: 'api', to: 'https://api.kuizuo.cn' },
+            { label: 'Service', to: 'https://service.kuizuo.cn' },
+            { label: 'Uptime', to: 'https://uptime.kuizuo.cn' },
           ],
         },
         {
           title: 'More',
           items: [
-            { label: '友链', position: 'right', to: 'friends' },
-            { label: '导航', position: 'right', to: 'resources' },
+            { label: 'Friends', position: 'right', to: 'friends' },
+            { label: 'Resources', position: 'right', to: 'resources' },
             {
               html: `
-                <a href="https://docusaurus.io/zh-CN/" target="_blank" rel="noreferrer noopener">
+                <a href="https://docusaurus.io/" target="_blank" rel="noreferrer noopener">
                   <img src="/img/buildwith.png" alt="build with docusaurus" width="120" height="50"/>
                 <a/>
                 `,
@@ -126,7 +126,7 @@ const config: Config = {
         },
       ],
       copyright: `
-        <p>Copyright © 2023 - PRESENT 愧怍 Built with Docusaurus.</p>
+        <p>Copyright © 2023 - PRESENT | Built with Docusaurus.</p>
         `,
     },
     algolia: {

@@ -2,7 +2,7 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs'
 
 const sidebars: SidebarsConfig = {
   skill: [
-    'skill/introduction',
+    'projects/welcome',
     {
       label: 'Docusaurus 主题魔改',
       type: 'category',

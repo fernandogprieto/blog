@@ -240,7 +240,7 @@ const config: Config = {
         feedOptions: {
           type: 'all',
           title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.>`,
+          copyright: `Copyright © ${new Date().getFullYear()} Built with Docusaurus.>`,
         },
       },
     ],
@@ -270,7 +270,7 @@ const config: Config = {
     'https://cdn.jsdelivr.net/npm/misans@4.0.0/lib/Normal/MiSans-Semibold.min.css',
   ],
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'zh-CN',
     locales: ['en', 'zh-CN', 'es'],
     localeConfigs: {
       en: {

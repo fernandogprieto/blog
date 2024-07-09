@@ -230,7 +230,7 @@ const config: Config = {
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
           `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
-        blogDescription: 'Cloud: A Blog Journey',
+        blogDescription: '代码人生：编织技术与生活的博客之旅',
         blogSidebarCount: 10,
         blogSidebarTitle: 'Blogs',
         postsPerPage: 12,
@@ -239,8 +239,8 @@ const config: Config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: 'Personal',
-          copyright: `Copyright © ${new Date().getFullYear()} Built with Docusaurus.>`,
+          title: '愧怍',
+          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.>`,
         },
       },
     ],
@@ -261,7 +261,7 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: 'personal blog',
+        content: '愧怍的个人博客',
       },
     },
   ],

@@ -1,14 +1,14 @@
 import type { SidebarsConfig } from '@docusaurus/plugin-content-docs'
 
 const sidebars: SidebarsConfig = {
-  skill: [
+  projects: [
     'projects/welcome',
     {
       label: 'Docusaurus 主题魔改',
       type: 'category',
       link: {
         type: 'doc',
-        id: 'skill/docusaurus/docusaurus-guides',
+        id: 'projects/docusaurus/docusaurus-intro',
       },
       items: [
         'skill/docusaurus/docusaurus-config',

@@ -320,6 +320,9 @@ const sidebars: SidebarsConfig = {
     'tools/vite-plugin',
     'tools/jetbrains-product-activation-method',
   ],
+  projects: [
+    'projects/welcome',
+  ],
 }
 
 module.exports = sidebars

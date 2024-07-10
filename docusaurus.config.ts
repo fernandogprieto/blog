@@ -68,6 +68,7 @@ const config: Config = {
             { label: 'Resources', to: 'resources' },
             { label: 'Friends', to: 'friends' },
             { label: 'Tools', to: 'docs/tools' },
+            {label: 'Docs', to: 'docs/projects'},
           ],
         },
         {

@@ -64,7 +64,6 @@ const config: Config = {
           position: 'right',
           items: [
             { label: 'Archive', to: 'blog/archive' },
-            { label: 'Skill', to: 'docs/skill' },
             { label: 'Resources', to: 'resources' },
             { label: 'Friends', to: 'friends' },
             { label: 'Tools', to: 'docs/tools' },
@@ -86,7 +85,6 @@ const config: Config = {
             { label: 'Blog', to: 'blog'},
             { label: 'Archive', to: 'blog/archive' },
             { label: 'Projects', to: 'project' },
-            { label: 'Skill', to: 'docs/skill' },
             { label: 'Frontend Examples', to: 'https://example.kuizuo.cn' },
           ],
         },

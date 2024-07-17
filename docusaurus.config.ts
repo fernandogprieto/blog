@@ -226,7 +226,7 @@ const config: Config = {
       {
         path: 'blog',
         editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
+          `https://github.com/fernandogprieto/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
         blogDescription: 'Cloud News: A Blog about Tecnhologies',
         blogSidebarCount: 10,
@@ -269,7 +269,7 @@ const config: Config = {
   ],
   i18n: {
     defaultLocale: 'zh-CN',
-    locales: ['en', 'zh-CN', 'es'],
+    locales: ['en', 'es', 'zh-CN'],
     localeConfigs: {
       en: {
         htmlLang: 'en-GB',

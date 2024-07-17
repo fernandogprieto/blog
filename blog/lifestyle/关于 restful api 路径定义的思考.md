@@ -2,7 +2,7 @@
 slug: restful-api-url-definition
 title: 关于 restful api 路径定义的思考
 date: 2023-11-30
-authors: kuizuo
+authors: fernandogprieto
 tags: [杂谈, restful]
 keywords: [杂谈, restful]
 ---

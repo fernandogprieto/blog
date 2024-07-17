@@ -2,7 +2,7 @@
 slug: github-pr-experience
 title: 记一次Github提交PR过程
 date: 2022-01-25
-authors: kuizuo
+authors: fernandogprieto
 tags: [记录, github]
 keywords: [记录, github]
 ---

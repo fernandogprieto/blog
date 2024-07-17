@@ -269,7 +269,7 @@ const config: Config = {
   ],
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'zh-CN', 'es'],
+    locales: ['en', 'es', 'zh-CN'],
     localeConfigs: {
       en: {
         htmlLang: 'en-GB',

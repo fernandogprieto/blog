@@ -2,7 +2,7 @@
 slug: http-config-client-ssl-certificate
 title: HTTP请求配置客户端SSL证书
 date: 2022-02-17
-authors: kuizuo
+authors: fernandogprieto
 tags: [http, ssl]
 keywords: [http, ssl]
 ---

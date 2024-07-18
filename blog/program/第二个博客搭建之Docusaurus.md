@@ -30,7 +30,7 @@ yarn
 yarn start
 ```
 
-关于主题魔改可以看 [Docusaurus 主题魔改](https://kuizuo.cn/docs/docusaurus-guides)
+关于主题魔改可以看 Docusaurus 主题魔改 
 
 ## 一些页面
 

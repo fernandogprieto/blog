@@ -40,7 +40,7 @@ function Name() {
         e.currentTarget.style.setProperty('--y', `${e.clientY}px`)
       }}
     >
-      <Translate id="homepage.hero.greet">你好! 我是</Translate>
+      <Translate id="homepage.hero.greet">Hello! I am </Translate>
       <span
         className={styles.name}
         onMouseMove={e => {
@@ -49,7 +49,7 @@ function Name() {
           e.currentTarget.style.setProperty('--mouse-y', `${bounding.y}px`)
         }}
       >
-        <Translate id="homepage.hero.name">愧怍</Translate>
+        <Translate id="homepage.hero.name">Fernando</Translate>
       </span>
       <span className="ml-1">👋</span>
     </motion.div>
@@ -63,8 +63,7 @@ export default function Hero() {
         <Name />
         <motion.p custom={2} initial="hidden" animate="visible" variants={variants} className="max-lg:px-4">
           <Translate id="homepage.hero.text">
-            在这里我会分享各类技术栈所遇到问题与解决方案，带你了解最新的技术栈以及实际开发中如何应用，并希望我的开发经历对你有所启发。
-          </Translate>
+          Welcome to my journey where cloud computing, AI, and open source innovation intersect. Join me to solve problems and apply practical solutions. Ready?</Translate>
         </motion.p>
         <motion.div custom={3} initial="hidden" animate="visible" variants={variants}>
           <SocialLinks />
@@ -76,7 +75,7 @@ export default function Hero() {
             className="relative z-10 flex items-center rounded-2xl border border-neutral-200 border-solid bg-background px-5 py-3 text-center font-semibold text-base dark:border-neutral-800"
           >
             <a href={'/about'} className="font-semibold">
-              <Translate id="hompage.hero.introduce">自我介绍</Translate>
+              <Translate id="hompage.hero.introduce">About me</Translate>
             </a>
           </MovingButton>
         </motion.div>

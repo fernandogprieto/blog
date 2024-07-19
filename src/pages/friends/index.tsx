@@ -10,12 +10,12 @@ import styles from './styles.module.css'
 
 const TITLE = '友链'
 const DESCRIPTION = '有很多良友，胜于有很多财富。'
-const ADD_FRIEND_URL = 'https://github.com/kuizuo/blog/edit/main/data/friends.tsx'
+const ADD_FRIEND_URL = 'https://github.com/fernandogprieto/blog/edit/main/data/friends.tsx'
 const SITE_INFO = `
 title: '愧怍'
 description: '道阻且长，行则将至'
-website: 'https://kuizuo.cn'
-avatar: 'https://kuizuo.cn/img/logo.png'
+website: 'https://fernandogprieto.com'
+avatar: 'https://fernandogprieto.com/img/logo.png'
 `
 
 function SiteInfo() {

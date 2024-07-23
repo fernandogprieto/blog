@@ -1,8 +1,8 @@
 import Translate, { translate } from '@docusaurus/Translate'
 import { Icon } from '@iconify/react/dist/iconify.js'
+import CloudEngineerSvg from '@site/static/svg/undraw_cloud_hosting.svg'
 import OpenSourceSvg from '@site/static/svg/undraw_open_source.svg'
 import SpiderSvg from '@site/static/svg/undraw_spider.svg'
-import WebDeveloperSvg from '@site/static/svg/undraw_web_developer.svg'
 
 export type FeatureItem = {
   title: string | React.ReactNode
@@ -15,14 +15,14 @@ const FEATURES: FeatureItem[] = [
   {
     title: translate({
       id: 'homepage.feature.developer',
-      message: 'TypeScript 全栈工程师',
+      message: 'Cloud Engineer',
     }),
     description: (
       <Translate>
         作为一名 TypeScript 全栈工程师，秉着能用 TS 绝不用 JS 的原则，为项目提供类型安全的保障，提高代码质量和开发效率。
       </Translate>
     ),
-    header: <WebDeveloperSvg className={'h-auto w-full'} height={150} role="img" />,
+    header: <CloudEngineerSvg className={'h-auto w-full'} height={150} role="img" />,
     icon: <Icon icon="logos:typescript-icon" className="h-4 w-4 text-neutral-500" />,
   },
   {

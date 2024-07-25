@@ -1,8 +1,8 @@
 import Translate, { translate } from '@docusaurus/Translate'
 import { Icon } from '@iconify/react/dist/iconify.js'
+import AiSvg from '@site/static/svg/undraw_artificial_intelligence.svg'
 import CloudEngineerSvg from '@site/static/svg/undraw_cloud_hosting.svg'
 import OpenSourceSvg from '@site/static/svg/undraw_open_source.svg'
-import SpiderSvg from '@site/static/svg/undraw_spider.svg'
 
 export type FeatureItem = {
   title: string | React.ReactNode
@@ -19,7 +19,7 @@ const FEATURES: FeatureItem[] = [
     }),
     description: (
       <Translate>
-        Migrating and configuring cloud infrastructure, networking, and security services, with a focus on monitoring and observability.
+        Migrating and configuring cloud infrastructure, networking, and security services, utilizing monitoring and observability tools
       </Translate>
     ),
     header: <CloudEngineerSvg className={'h-auto w-full'} height={150} role="img" />,
@@ -35,7 +35,7 @@ const FEATURES: FeatureItem[] = [
         Learning about AI technologies and staying updated with the latest advancements, focusing on infrastructure-related AI projects.
       </Translate>
     ),
-    header: <SpiderSvg className={'h-auto w-full'} height={150} role="img" />,
+    header: <AiSvg className={'h-auto w-full'} height={150} role="img" />,
   },
   {
     title: translate({

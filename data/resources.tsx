@@ -24,7 +24,7 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Google Cloud Skill Boost',
         desc: 'Choose your learning path, build your skills, and validate your knowledge.',
-        logo: '/img/resources/gcp.png',
+        logo: 'https://www.cloudskillsboost.google/favicon.ico',
         href: 'https://www.cloudskillsboost.google/',
       },
       {

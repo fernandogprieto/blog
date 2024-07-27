@@ -57,7 +57,15 @@ const ShowcaseCard = memo(({ project }: { project: Project }) => {
               href={project.source}
               className={cn('button button--secondary button--sm', styles.showcaseCardSrcBtn)}
             >
-              <Translate id="showcase.card.sourceLink">源码</Translate>
+              <Translate id="showcase.card.sourceLink">source</Translate>
+            </Link>
+          )}
+          {project.docs && (
+            <Link
+              href={project.docs}
+              className={cn('button button--secondary button--sm', styles.showcaseCardSrcBtn)}
+            >
+              <Translate id="showcase.card.docsLink">docs</Translate>
             </Link>
           )}
         </div>

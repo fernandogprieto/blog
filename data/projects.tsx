@@ -5,6 +5,7 @@ export const projects: Project[] = [
     preview: '/img/project/blog.png',
     website: 'https://kuizuo.cn',
     source: 'https://github.com/kuizuo/blog',
+    docs: 'https://github.com/kuizuo/blog',
     tags: ['opensource', 'design', 'favorite'],
     type: 'web',
   },
@@ -214,6 +215,7 @@ export type Project = {
   preview?: string
   website: string
   source?: string | null
+  docs?: string | null
   tags: TagType[]
   type: ProjectType
 }

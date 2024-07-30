@@ -7,7 +7,7 @@ export const projects: Project[] = [
     source: 'https://github.com/kuizuo/blog',
     docs: 'https://github.com/kuizuo/blog',
     tags: ['opensource', 'design', 'favorite'],
-    type: 'web',
+    type: 'cloud',
   },
   {
     title: 'JS代码反混淆',
@@ -16,7 +16,7 @@ export const projects: Project[] = [
     website: 'https://js-deobfuscator.vercel.app',
     source: 'https://github.com/kuizuo/js-deobfuscator',
     tags: ['opensource', 'favorite'],
-    type: 'web',
+    type: 'cloud',
   },
   {
     title: 'Youni（校园社交平台）',
@@ -25,7 +25,7 @@ export const projects: Project[] = [
     website: 'https://youni.vercel.app',
     source: 'https://github.com/kuizuo/youni',
     tags: ['large', 'product'],
-    type: 'web',
+    type: 'cloud',
   },
   {
     title: 'nest-vben-admin',
@@ -34,7 +34,7 @@ export const projects: Project[] = [
     website: 'https://admin.kuizuo.cn',
     source: 'https://github.com/kuizuo/nest-vben-admin',
     tags: ['opensource', 'favorite', 'product', 'large'],
-    type: 'web',
+    type: 'cloud',
   },
   {
     title: 'api-server',
@@ -43,9 +43,9 @@ export const projects: Project[] = [
     website: 'https://api.kuizuo.cn',
     source: 'https://github.com/kuizuo/api-service',
     tags: ['opensource', 'favorite', 'product'],
-    type: 'web',
+    type: 'cloud',
   },
-  // toy
+  // collaboration
   {
     title: 'chaoxing-sign',
     description: '🌟 超星学习通在线签到，摆脱客户端繁琐的签到流程，让签到不再是你的烦恼',
@@ -53,34 +53,7 @@ export const projects: Project[] = [
     website: 'https://cx.kuizuo.cn',
     source: 'https://github.com/kuizuo/chaoxing-sign',
     tags: ['opensource', 'favorite'],
-    type: 'toy',
-  },
-  {
-    title: '便民服务',
-    description: '🌱 一个便民服务的网站',
-    preview: '/img/project/service.png',
-    website: 'https://service.kuizuo.cn',
-    source: 'https://github.com/kuizuo/service',
-    tags: ['opensource', 'personal'],
-    type: 'toy',
-  },
-  {
-    title: 'Hoppx',
-    description: '👽 仿 Hoppscotch 风格的网站模板',
-    preview: '/img/project/hoppx.png',
-    website: 'https://hoppx.vercel.app',
-    source: 'https://github.com/kuizuo/hoppx',
-    tags: ['opensource'],
-    type: 'toy',
-  },
-  {
-    title: 'Link Maker',
-    description: '🍋 一个用于将链接转换为卡片样式的预览网站',
-    preview: '/img/project/link-maker.png',
-    website: 'https://link-maker.deno.dev',
-    source: 'https://github.com/kuizuo/link-maker',
-    tags: ['opensource'],
-    type: 'toy',
+    type: 'collaboration',
   },
   {
     title: 'Nuxt-Naive-Admin',
@@ -89,7 +62,7 @@ export const projects: Project[] = [
     website: 'https://nuxt-naive-admin.vercel.app',
     source: 'https://github.com/kuizuo/nuxt-naive-admin',
     tags: ['opensource'],
-    type: 'toy',
+    type: 'collaboration',
   },
   // {
   //   title: 'Image Hosting',
@@ -198,15 +171,14 @@ export type Tag = {
 
 export type TagType = 'favorite' | 'opensource' | 'product' | 'design' | 'large' | 'personal'
 
-export type ProjectType = 'web' | 'app' | 'commerce' | 'personal' | 'toy' | 'other'
+export type ProjectType = 'cloud' | 'collaboration' | 'ai' | 'personal' | 'other'
 
 export const projectTypeMap = {
-  web: '网站',
-  app: '应用',
-  commerce: '商业项目',
-  personal: '个人',
-  toy: '玩具',
-  other: '其他',
+  cloud: 'cloud',
+  collaboration: 'collaboration',
+  personal: 'personal',
+  ai: 'AI',
+  other: 'other',
 }
 
 export type Project = {

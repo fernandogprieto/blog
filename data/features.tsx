@@ -27,18 +27,6 @@ const FEATURES: FeatureItem[] = [
   },
   {
     title: translate({
-      id: 'homepage.feature.enthusiast',
-      message: 'AI Enthusiast',
-    }),
-    description: (
-      <Translate>
-        Learning about AI technologies and staying updated with the latest advancements, focusing on infrastructure-related AI projects.
-      </Translate>
-    ),
-    header: <AiSvg className={'h-auto w-full'} height={150} role="img" />,
-  },
-  {
-    title: translate({
       id: 'homepage.feature.opensource',
       message: 'Open Source Advocate',
     }),
@@ -48,6 +36,18 @@ const FEATURES: FeatureItem[] = [
       </Translate>
     ),
     header: <OpenSourceSvg className={'h-auto w-full'} height={150} role="img" />,
+  },
+  {
+    title: translate({
+      id: 'homepage.feature.enthusiast',
+      message: 'AI Enthusiast',
+    }),
+    description: (
+      <Translate>
+        Learning about AI technologies and staying updated with the latest advancements, focusing on infrastructure-related AI projects.
+      </Translate>
+    ),
+    header: <AiSvg className={'h-auto w-full'} height={150} role="img" />,
   },
 ]
 

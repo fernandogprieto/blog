@@ -176,9 +176,9 @@ export type ProjectType = 'cloud' | 'collaboration' | 'ai' | 'personal' | 'other
 export const projectTypeMap = {
   cloud: 'cloud',
   collaboration: 'collaboration',
-  personal: 'personal',
   ai: 'AI',
-  other: 'other',
+  personal: 'personal',
+    other: 'other',
 }
 
 export type Project = {

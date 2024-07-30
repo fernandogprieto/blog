@@ -13,14 +13,14 @@ import styles from './styles.module.css'
 
 const TITLE = translate({
   id: 'theme.project.title',
-  message: '项目',
+  message: 'Project Showcase',
 })
 const DESCRIPTION = translate({
   id: 'theme.project.description',
-  message: '学而无用，不如学而用之。这里是我在技术领域中努力实践和应用的最佳证明。',
+  message: 'This is my portfolio of my hard practice and application in the field of tecnology', 
 })
 
-// const GITHUB_URL = 'https://github.com/kuizuo'
+// const GITHUB_URL = 'https://github.com/fernandogprieto'
 
 type ProjectState = {
   scrollTopPosition: number
@@ -49,7 +49,7 @@ function ShowcaseHeader() {
         target="_blank"
         rel="noreferrer"
       >
-        <Translate id="showcase.header.button">前往 Github 克隆项目</Translate>
+        <Translate id="showcase.header.button"> Github </Translate>
       </a> */}
     </section>
   )

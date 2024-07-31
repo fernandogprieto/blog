@@ -26,7 +26,7 @@ export const projects: Project[] = [
     website: 'https://kuizuo.cn',
     source: 'https://github.com/kuizuo/blog',
     docs: 'https://github.com/kuizuo/blog',
-    tags: ['opensource', 'design', 'favorite'],
+    tags: ['opensource', 'favorite'],
     type: 'cloud',
   },
   {
@@ -118,7 +118,7 @@ export const projects: Project[] = [
     preview: '/img/project/example-website.png',
     website: 'https://example.kuizuo.cn',
     source: 'https://github.com/kuizuo/example',
-    tags: ['opensource', 'design'],
+    tags: ['opensource'],
     type: 'personal',
   },
   // {
@@ -189,7 +189,7 @@ export type Tag = {
   color: string
 }
 
-export type TagType = 'favorite' | 'opensource' | 'product' | 'design' | 'large' | 'personal' | 'i18n'
+export type TagType = 'favorite' | 'opensource' | 'product' | 'large' | 'personal' | 'i18n'
 
 export type ProjectType = 'cloud' | 'collaboration' | 'ai' | 'personal' | 'other'
 
@@ -214,36 +214,48 @@ export type Project = {
 
 export const Tags: Record<TagType, Tag> = {
   favorite: {
-    label: '喜爱',
-    description: '我最喜欢的网站，一定要去看看!',
+    label: translate({message: 'Favorite'}),
+    description: translate({
+      message:
+        'favorite sites that you must absolutely check out!',
+      id: 'showcase.tag.favorite.description',
+    }),
     color: '#e9669e',
   },
   opensource: {
-    label: '开源',
-    description: '开源项目可以提供灵感!',
+    label: translate({message: 'Open-Source'}),
+    description: translate({
+      message: 'Open-Source can be useful for inspiration!',
+      id: 'showcase.tag.opensource.description',
+    }),
     color: '#39ca30',
   },
   product: {
-    label: '产品',
-    description: '与产品相关的项目!',
+    label: translate({message: 'Product'}),
+    description: translate({
+      message: 'Docusaurus sites associated to a commercial product!',
+      id: 'showcase.tag.product.description',
+    }),
     color: '#dfd545',
   },
-  design: {
-    label: '设计',
-    description: '设计漂亮的网站!',
-    color: '#a44fb7',
-  },
   large: {
-    label: '大型',
-    description: '大型项目，原多于平均数的页面',
+    label: translate({message: 'Large'}),
+    description: translate({
+      message:
+        'Very large sites, including many more pages than the average!',
+      id: 'showcase.tag.large.description',
+    }),
     color: '#8c2f00',
   },
   personal: {
-    label: '个人',
-    description: '个人项目',
-    color: '#12affa',
+    label: translate({message: 'Personal'}),
+    description: translate({
+      message:
+        'Personal websites, blog and documentation',
+      id: 'showcase.tag.personal.description',
+    }),
+    color: '#14cfc3',
   },
-  
   i18n: {
     label: translate({message: 'i18n'}),
     description: translate({

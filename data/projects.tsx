@@ -50,7 +50,7 @@ export const projects: Project[] = [
       message: '💬 Build and improve a discord server for a Google Comunity Cloud Santiago',
       description: 'Description for GDGCloudSantiago Discord Project',
     }),
-    preview: 'img/projects/collaboration/gdgcloudsantiago-discord.png',
+    preview: '/img/projects/collaboration/gdgcloudsantiago-discord.png',
     website: 'https://discord.gg/Yx9NfVSH49',
     source: 'https://github.com/gdgcloudsantiago/discord-project-community',
     docs: 'https://www.fernandogprieto.com/docs/gdg-discord-intro',
@@ -58,34 +58,23 @@ export const projects: Project[] = [
     type: 'collaboration',
   },
   // personal
+
   // commerce
+
   // other
   {
-    title: '@kuizuo/http',
-    description: '基于 Axios 封装的 HTTP 类库',
-    website: 'https://www.npmjs.com/package/@kuizuo/http',
+    title: translate({
+      id: 'project.dotfiles.title',
+      message: 'Dotfiles',
+      description: 'Title for Dotfiles project',
+    }),
+    description: translate({
+      id: 'project.dotfiles.description',
+      message: 'This collection features my meticulously assembled personal dotfiles, tailored to optimize my development environment for peak efficiency and seamless workflow..',
+      description: 'Description for Dotfiles project',
+    }),
+    website: 'https://github.com/fernandogprieto/dotfiles',
     tags: ['opensource', 'personal'],
-    type: 'other',
-  },
-  {
-    title: 'browser-rpc',
-    description: 'WebSocket 远程调用浏览器函数',
-    website: 'https://github.com/kuizuo/rpc-browser',
-    tags: ['opensource'],
-    type: 'other',
-  },
-  {
-    title: 'ocr-server',
-    description: '使用 nestjs 通过 grpc 与 python ddddocr 库搭建的验证码图像识别服务',
-    website: 'https://github.com/kuizuo/ocr',
-    tags: ['opensource'],
-    type: 'other',
-  },
-  {
-    title: 'rust-wasm-md5',
-    description: '🦀 Rust + WebAssembly 实现的 MD5 加密',
-    website: 'https://github.com/kuizuo/rust-wasm-md5',
-    tags: ['opensource'],
     type: 'other',
   },
 ]

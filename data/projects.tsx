@@ -1,4 +1,24 @@
+import { translate } from '@docusaurus/Translate';
+
 export const projects: Project[] = [
+  {
+    title: translate({
+      id: 'project.myCloudJourney.title',
+      message: 'My Cloud Journey',
+      description: 'Title for My Cloud Journey project',
+    }),
+    description: translate({
+      id: 'project.myCloudJourney.description',
+      message: '🖥️ Personal website that highlights my experiences, expertise, blog and tutorials in the cloud computing domains.',
+      description: 'Description for My Cloud Journey project',
+    }),
+    preview: '/img/project/fernandogprieto.png',
+    website: 'https://fernandogprieto.com/',
+    source: 'https://github.com/fernandogprieto/fgp-website',
+    docs: 'https://www.fernandogprieto.com/docs/docusuarus-intro',
+    tags: ['opensource', 'favorite', 'personal', 'i18n'],
+    type: 'cloud',
+  },
   {
     title: '愧怍的小站',
     description: '🦖 基于 Docusaurus 静态网站生成器实现个人博客',
@@ -169,7 +189,7 @@ export type Tag = {
   color: string
 }
 
-export type TagType = 'favorite' | 'opensource' | 'product' | 'design' | 'large' | 'personal'
+export type TagType = 'favorite' | 'opensource' | 'product' | 'design' | 'large' | 'personal' | 'i18n'
 
 export type ProjectType = 'cloud' | 'collaboration' | 'ai' | 'personal' | 'other'
 
@@ -222,6 +242,16 @@ export const Tags: Record<TagType, Tag> = {
     label: '个人',
     description: '个人项目',
     color: '#12affa',
+  },
+  
+  i18n: {
+    label: translate({message: 'i18n'}),
+    description: translate({
+      message:
+        'Translated  sites using the i18n support .',
+      id: 'showcase.tag.i18n.description',
+    }),
+    color: '#127f82',
   },
 }
 

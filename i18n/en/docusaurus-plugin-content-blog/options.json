@@ -4,11 +4,11 @@
     "description": "The title for the blog used in SEO"
   },
   "description": {
-    "message": "Blog",
+    "message": "Cloud News: A Blog about Tecnhologies",
     "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {
-    "message": "近期文章",
+    "message": "Blogs",
     "description": "The label for the left sidebar"
   }
 }

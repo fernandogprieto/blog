@@ -1,39 +1,31 @@
 {
-  "link.title.学习": {
-    "message": "学习",
-    "description": "The title of the footer links column with title=学习 in the footer"
+  "link.title.Nexus": {
+    "message": "Nexus",
+    "description": "The title of the footer links column with title=Nexus in the footer"
   },
   "link.title.Social Media": {
     "message": "Social Media",
     "description": "The title of the footer links column with title=Social Media in the footer"
   },
-  "link.title.网站": {
-    "message": "网站",
-    "description": "The title of the footer links column with title=网站 in the footer"
-  },
   "link.title.More": {
     "message": "More",
     "description": "The title of the footer links column with title=More in the footer"
   },
-  "link.item.label.博客": {
-    "message": "博客",
-    "description": "The label of footer link with label=博客 linking to blog"
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to blog"
   },
-  "link.item.label.归档": {
-    "message": "归档",
-    "description": "The label of footer link with label=归档 linking to blog/archive"
+  "link.item.label.Archive": {
+    "message": "Archive",
+    "description": "The label of footer link with label=Archive linking to blog/archive"
   },
-  "link.item.label.技术笔记": {
-    "message": "技术笔记",
-    "description": "The label of footer link with label=技术笔记 linking to docs/skill"
+  "link.item.label.Projects": {
+    "message": "Projects",
+    "description": "The label of footer link with label=Projects linking to project"
   },
-  "link.item.label.实战项目": {
-    "message": "实战项目",
-    "description": "The label of footer link with label=实战项目 linking to project"
-  },
-  "link.item.label.前端示例": {
-    "message": "前端示例",
-    "description": "The label of footer link with label=前端示例 linking to https://example.kuizuo.cn"
+  "link.item.label.Frontend Examples": {
+    "message": "Frontend Examples",
+    "description": "The label of footer link with label=Frontend Examples linking to https://example.kuizuo.cn"
   },
   "link.item.label.About me": {
     "message": "About me",
@@ -59,36 +51,36 @@
     "message": "Discord",
     "description": "The label of footer link with label=Discord linking to https://discord.gg/Gjx5SfsxXA"
   },
-  "link.item.label.js反混淆": {
-    "message": "js反混淆",
-    "description": "The label of footer link with label=js反混淆 linking to https://js-deobfuscator.kuizuo.cn"
+  "link.item.label.js": {
+    "message": "js",
+    "description": "The label of footer link with label=js linking to https://js-deobfuscator.kuizuo.cn"
   },
   "link.item.label.cyberChef": {
     "message": "cyberChef",
     "description": "The label of footer link with label=cyberChef linking to https://gchq.github.io/CyberChef"
   },
-  "link.item.label.api服务": {
-    "message": "api服务",
-    "description": "The label of footer link with label=api服务 linking to https://api.kuizuo.cn"
+  "link.item.label.api": {
+    "message": "api",
+    "description": "The label of footer link with label=api linking to https://api.kuizuo.cn"
   },
-  "link.item.label.便民服务": {
-    "message": "便民服务",
-    "description": "The label of footer link with label=便民服务 linking to https://service.kuizuo.cn"
+  "link.item.label.Service": {
+    "message": "Service",
+    "description": "The label of footer link with label=Service linking to https://service.kuizuo.cn"
   },
-  "link.item.label.站点监控": {
-    "message": "站点监控",
-    "description": "The label of footer link with label=站点监控 linking to https://uptime.kuizuo.cn"
+  "link.item.label.Uptime": {
+    "message": "Uptime",
+    "description": "The label of footer link with label=Uptime linking to https://uptime.kuizuo.cn"
   },
-  "link.item.label.友链": {
-    "message": "友链",
-    "description": "The label of footer link with label=友链 linking to friends"
+  "link.item.label.Friends": {
+    "message": "Friends",
+    "description": "The label of footer link with label=Friends linking to friends"
   },
-  "link.item.label.导航": {
-    "message": "导航",
-    "description": "The label of footer link with label=导航 linking to resources"
+  "link.item.label.Resources": {
+    "message": "Resources",
+    "description": "The label of footer link with label=Resources linking to resources"
   },
   "copyright": {
-    "message": "\n        <p>Copyright © 2023 - PRESENT 愧怍 Built with Docusaurus.</p>\n        ",
+    "message": "\n        <p>Copyright © 2023 - PRESENT | Built with Docusaurus.</p>\n        ",
     "description": "The footer copyright"
   }
 }

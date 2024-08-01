@@ -15,28 +15,24 @@
     "message": "Blog",
     "description": "Navbar item with label Blog"
   },
-  "item.label.更多": {
-    "message": "更多",
-    "description": "Navbar item with label 更多"
+  "item.label.Nexus": {
+    "message": "Nexus",
+    "description": "Navbar item with label Nexus"
   },
-  "item.label.归档": {
-    "message": "归档",
-    "description": "Navbar item with label 归档"
+  "item.label.Archive": {
+    "message": "Archive",
+    "description": "Navbar item with label Archive"
   },
-  "item.label.笔记": {
-    "message": "笔记",
-    "description": "Navbar item with label 笔记"
+  "item.label.Resources": {
+    "message": "Resources",
+    "description": "Navbar item with label Resources"
   },
-  "item.label.资源": {
-    "message": "资源",
-    "description": "Navbar item with label 资源"
+  "item.label.Friends": {
+    "message": "Friends",
+    "description": "Navbar item with label Friends"
   },
-  "item.label.友链": {
-    "message": "友链",
-    "description": "Navbar item with label 友链"
-  },
-  "item.label.工具推荐": {
-    "message": "工具推荐",
-    "description": "Navbar item with label 工具推荐"
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
   }
 }

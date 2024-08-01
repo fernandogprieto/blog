@@ -1,62 +1,38 @@
 {
   "title": {
-    "message": "kuizuo",
+    "message": "Fernando Prieto",
     "description": "The title in the navbar"
   },
-  "item.label.博客": {
-    "message": "Blogs",
-    "description": "Navbar item with label 博客"
+  "logo.alt": {
+    "message": "logo",
+    "description": "The alt text of navbar logo"
   },
-  "item.label.工具": {
-    "message": "Tools",
-    "description": "Navbar item with label 工具"
+  "item.label.Project": {
+    "message": "Project",
+    "description": "Navbar item with label Project"
   },
-  "item.label.导航": {
-    "message": "Links",
-    "description": "Navbar item with label 导航"
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
   },
-  "item.label.项目": {
-    "message": "Projects",
-    "description": "Navbar item with label 项目"
+  "item.label.Nexus": {
+    "message": "Nexus",
+    "description": "Navbar item with label Nexus"
   },
-  "item.label.标签": {
-    "message": "Tags",
-    "description": "Navbar item with label 标签"
-  },
-  "item.label.归档": {
+  "item.label.Archive": {
     "message": "Archive",
-    "description": "Navbar item with label 归档"
+    "description": "Navbar item with label Archive"
   },
-  "item.label.笔记": {
-    "message": "Notes",
-    "description": "Navbar item with label 笔记"
+  "item.label.Resources": {
+    "message": "Resources",
+    "description": "Navbar item with label Resources"
   },
-  "item.label.工具推荐": {
-    "message": "Recommended Tools",
-    "description": "Navbar item with label 工具推荐"
+  "item.label.Friends": {
+    "message": "Friends",
+    "description": "Navbar item with label Friends"
   },
-  "item.label.前端示例": {
-    "message": "Frontend Example",
-    "description": "Navbar item with label 前端示例"
-  },
-  "item.label.在线代码": {
-    "message": "Live Code",
-    "description": "Navbar item with label 在线代码"
-  },
-  "item.label.API服务": {
-    "message": "API Service",
-    "description": "Navbar item with label API服务"
-  },
-  "item.label.JS代码还原": {
-    "message": "JS Deobfuscate",
-    "description": "Navbar item with label JS代码还原"
-  },
-  "item.label.CyberChef加密": {
-    "message": "CyberChef Encryption",
-    "description": "Navbar item with label CyberChef加密"
-  },
-  "item.label.网盘": {
-    "message": "Cloudreve",
-    "description": "Navbar item with label 网盘"
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
   }
 }

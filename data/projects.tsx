@@ -31,7 +31,7 @@ export const projects: Project[] = [
       message: '📚 Build and deploy a personal resume website using Google Cloud Platform services, showcasing cloud technology expertise and hands-on experience.',
       description: 'Description for Cloud Resume Challenge project',
     }),
-    preview: '/img/projects/docusaurus/crc-gcp.png',
+    preview: '/img/project/docusaurus/crc-gcp.png',
     website: 'https://www.fernandogprieto.dev',
     source: 'https://github.com/fernandogprieto/cloud-resume-challenge-gcp',
     docs: 'https://www.fernandogprieto.com/docs/crc-gcp-intro',
@@ -50,7 +50,7 @@ export const projects: Project[] = [
       message: '💬 Build and improve a discord server for a Google Comunity Cloud Santiago',
       description: 'Description for GDGCloudSantiago Discord Project',
     }),
-    preview: '/img/projects/collaboration/gdgcloudsantiago-discord.png',
+    preview: '/img/project/collaboration/gdgcloudsantiago-discord.png',
     website: 'https://discord.gg/Yx9NfVSH49',
     source: 'https://github.com/gdgcloudsantiago/discord-project-community',
     docs: 'https://www.fernandogprieto.com/docs/gdg-discord-intro',
@@ -70,13 +70,14 @@ export const projects: Project[] = [
     }),
     description: translate({
       id: 'project.dotfiles.description',
-      message: 'This collection features my meticulously assembled personal dotfiles, tailored to optimize my development environment for peak efficiency and seamless workflow..',
+      message: 'scripts, dotfiles, qtile, bash-profile',
       description: 'Description for Dotfiles project',
     }),
     website: 'https://github.com/fernandogprieto/dotfiles',
     tags: ['opensource', 'personal'],
     type: 'other',
   },
+  //AI
 ]
 
 export type Tag = {
@@ -90,11 +91,17 @@ export type TagType = 'favorite' | 'opensource' | 'product' | 'large' | 'persona
 export type ProjectType = 'cloud' | 'collaboration' | 'ai' | 'personal' | 'other'
 
 export const projectTypeMap = {
-  cloud: 'cloud',
-  collaboration: 'collaboration',
+  // cloud: { label: translate({ id: 'projectType.cloud', message: 'Cloud' }) }, This is the best option
+  //cloud: { label: translate({ message: 'Cloud' }) },
+  //collaboration: { label: translate({ message: 'Colaboration', }) },
+  //ai: { label: translate({ message: 'AI' }) },
+  //personal: { label: translate({ message: 'Personal' }) },
+  //other: { label: translate({ message: 'Others' }) },
+  cloud: 'Cloud',
+  collaboration: 'Collaboration',
   ai: 'AI',
-  personal: 'personal',
-  other: 'other',
+  personal: 'Personal',
+  other: 'Other',
 }
 
 export type Project = {

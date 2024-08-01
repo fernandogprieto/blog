@@ -1,9 +1,9 @@
 {
   "theme.project.title": {
-    "message": "项目"
+    "message": "Project Showcase"
   },
   "theme.project.description": {
-    "message": "学而无用，不如学而用之。这里是我在技术领域中努力实践和应用的最佳证明。"
+    "message": "This is my portfolio of my hard practice and application in the field of tecnology"
   },
   "theme.blog.archive.posts.unit": {
     "message": "篇"
@@ -35,34 +35,34 @@
     "description": "The label of the link targeting the tag list page"
   },
   "homepage.blog.title": {
-    "message": "近期博客"
+    "message": "Recent Blogs"
   },
   "homepage.feature.github.title": {
     "message": "Github"
   },
   "homepage.feature.title": {
-    "message": "个人特点"
+    "message": "Feature"
   },
   "homepage.feature.skill.title": {
-    "message": "技术栈"
+    "message": "Tech Skills"
   },
   "homepage.hero.greet": {
-    "message": "你好! 我是"
+    "message": "Hello! I am"
   },
   "homepage.hero.name": {
-    "message": "愧怍"
+    "message": "Fernando"
   },
   "homepage.hero.text": {
-    "message": "在这里我会分享各类技术栈所遇到问题与解决方案，带你了解最新的技术栈以及实际开发中如何应用，并希望我的开发经历对你有所启发。"
+    "message": "Welcome to my journey where cloud computing, AI, and open source innovation intersect. Join me to solve problems and apply practical solutions. Ready?"
   },
   "hompage.hero.introduce": {
-    "message": "自我介绍"
+    "message": "About me"
   },
   "homepage.project.title": {
-    "message": "项目展示"
+    "message": "Project Showcase"
   },
   "homepage.lookMore": {
-    "message": "查看更多"
+    "message": "Look More"
   },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "Navegación de publicaciones recientes",
@@ -89,7 +89,10 @@
     "description": "The ARIA label for the main navigation"
   },
   "showcase.card.sourceLink": {
-    "message": "源码"
+    "message": "source"
+  },
+  "showcase.card.docsLink": {
+    "message": "docs"
   },
   "theme.blog.post.readMore": {
     "message": "Leer Más",
@@ -179,9 +182,6 @@
     "message": "Siguiente",
     "description": "The label used to navigate to the next doc"
   },
-  "theme.docs.versionBadge.label": {
-    "message": "Version: {versionLabel}"
-  },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
     "message": "Un documento etiquetado|{count} documentos etiquetados",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -189,6 +189,9 @@
   "theme.docs.tagDocListPageTitle": {
     "message": "{nDocsTagged} con \"{tagName}\"",
     "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "Esta es documentación sin liberar para {siteTitle} {versionLabel} versión.",
@@ -314,9 +317,6 @@
     "message": "Expandir barra lateral",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
-  "theme.SearchBar.seeAll": {
-    "message": "Ver todos los {count} resultados"
-  },
   "theme.SearchPage.documentsFound.plurals": {
     "message": "Un documento encontrado|{count} documentos encontrados",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -348,6 +348,9 @@
   "theme.SearchPage.fetchingNewResults": {
     "message": "Obteniendo nuevos resultados...",
     "description": "The paragraph for fetching new search results"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Ver todos los {count} resultados"
   },
   "theme.SearchBar.label": {
     "message": "Buscar",

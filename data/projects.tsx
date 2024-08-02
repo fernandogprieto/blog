@@ -41,7 +41,7 @@ export const projects: Project[] = [
   // collaboration
   {
     title: translate({
-      id: 'project.discordproject.title',
+      id: "project.discordproject.title",
       message: 'Discord Project Community',
       description: 'Title for Collaboration Discord project GCP',
     }),

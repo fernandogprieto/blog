@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.projects.category.Docusaurus": {
+    "message": "Docusaurus",
+    "description": "The label for category Docusaurus in sidebar projects"
+  },
+  "sidebar.projects.category.Cloud Resume Challenge": {
+    "message": "Cloud Resume Challenge",
+    "description": "The label for category Cloud Resume Challenge in sidebar projects"
+  }
+}

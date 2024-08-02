@@ -1,0 +1,38 @@
+{
+  "title": {
+    "message": "Fernando Prieto",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Project": {
+    "message": "Project",
+    "description": "Navbar item with label Project"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Nexus": {
+    "message": "Nexus",
+    "description": "Navbar item with label Nexus"
+  },
+  "item.label.Archive": {
+    "message": "Archive",
+    "description": "Navbar item with label Archive"
+  },
+  "item.label.Resources": {
+    "message": "Resources",
+    "description": "Navbar item with label Resources"
+  },
+  "item.label.Friends": {
+    "message": "Friends",
+    "description": "Navbar item with label Friends"
+  },
+  "item.label.Docs": {
+    "message": "Docs",
+    "description": "Navbar item with label Docs"
+  }
+}

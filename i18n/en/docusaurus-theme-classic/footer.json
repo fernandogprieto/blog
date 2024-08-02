@@ -1,0 +1,86 @@
+{
+  "link.title.Nexus": {
+    "message": "Nexus",
+    "description": "The title of the footer links column with title=Nexus in the footer"
+  },
+  "link.title.Social Media": {
+    "message": "Social Media",
+    "description": "The title of the footer links column with title=Social Media in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to blog"
+  },
+  "link.item.label.Archive": {
+    "message": "Archive",
+    "description": "The label of footer link with label=Archive linking to blog/archive"
+  },
+  "link.item.label.Projects": {
+    "message": "Projects",
+    "description": "The label of footer link with label=Projects linking to project"
+  },
+  "link.item.label.Frontend Examples": {
+    "message": "Frontend Examples",
+    "description": "The label of footer link with label=Frontend Examples linking to https://example.kuizuo.cn"
+  },
+  "link.item.label.About me": {
+    "message": "About me",
+    "description": "The label of footer link with label=About me linking to /about"
+  },
+  "link.item.label.LinkedIn": {
+    "message": "LinkedIn",
+    "description": "The label of footer link with label=LinkedIn linking to https://www.linkedin.com/in/fernandogprieto/"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/fernandogprieto"
+  },
+  "link.item.label.X": {
+    "message": "X",
+    "description": "The label of footer link with label=X linking to https://x.com/fernandogprieto"
+  },
+  "link.item.label.Email": {
+    "message": "Email",
+    "description": "The label of footer link with label=Email linking to mailto:prieto.fernandog@gmail.com"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/Gjx5SfsxXA"
+  },
+  "link.item.label.js": {
+    "message": "js",
+    "description": "The label of footer link with label=js linking to https://js-deobfuscator.kuizuo.cn"
+  },
+  "link.item.label.cyberChef": {
+    "message": "cyberChef",
+    "description": "The label of footer link with label=cyberChef linking to https://gchq.github.io/CyberChef"
+  },
+  "link.item.label.api": {
+    "message": "api",
+    "description": "The label of footer link with label=api linking to https://api.kuizuo.cn"
+  },
+  "link.item.label.Service": {
+    "message": "Service",
+    "description": "The label of footer link with label=Service linking to https://service.kuizuo.cn"
+  },
+  "link.item.label.Uptime": {
+    "message": "Uptime",
+    "description": "The label of footer link with label=Uptime linking to https://uptime.kuizuo.cn"
+  },
+  "link.item.label.Friends": {
+    "message": "Friends",
+    "description": "The label of footer link with label=Friends linking to friends"
+  },
+  "link.item.label.Resources": {
+    "message": "Resources",
+    "description": "The label of footer link with label=Resources linking to resources"
+  },
+  "copyright": {
+    "message": "\n        <p>Copyright © 2023 - PRESENT | Built with Docusaurus.</p>\n        ",
+    "description": "The footer copyright"
+  }
+}

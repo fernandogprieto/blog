@@ -499,5 +499,24 @@
   "theme.unlistedContent.message": {
     "message": "Esta página está sin clasificar. Los motores de búsqueda no la indexaran, y solo los usuarios con el enlace directo podrán acceder a esta.",
     "description": "The unlisted content banner message"
+  },
+  "homepage.feature.developer": {
+    "message": "Ingeniero en la Nube"
+  },
+  "homepage.feature.developer.description": {
+    "message": "Migración y configuración de infraestructura en la nube, servicios de redes y seguridad, utilizando herramientas de monitoreo y observabilidad."
+  },
+  "homepage.feature.opensource": { 
+    "message": "Promotor del Código Abierto"
+  },
+  "homepage.feature.opensource.description": {
+    "message": "Conducen a soluciones y modificaciones innovadoras, apoyando a la comunidad de diversas maneras y fomentando la participación."
+  },
+  "homepage.feature.enthusiast": {
+    "message": "Entusiasta de la Inteligencia Artificial"  
+  },
+  "homepage.feature.enthusiast.description": {
+    "message": "Aprendiendo sobre tecnologías de IA, me mantengo actualizado con los últimos avances, centrándose en proyectos de IA relacionados con infraestructura."
   }
 }
+

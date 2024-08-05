@@ -18,7 +18,7 @@ const FEATURES: FeatureItem[] = [
       message: 'Cloud Engineer',
     }),
     description: (
-      <Translate>
+      <Translate id = "homepage.feature.developer.description">
         Migrating and configuring cloud infrastructure, networking, and security services, utilizing monitoring and observability tools
       </Translate>
     ),
@@ -31,7 +31,7 @@ const FEATURES: FeatureItem[] = [
       message: 'Open Source Advocate',
     }),
     description: (
-      <Translate>
+      <Translate id="homepage.feature.opensource.description">
         I promote open source projects because they lead to innovative solutions and modifications, supporting the community in various ways and encouraging involvement.
       </Translate>
     ),
@@ -40,10 +40,10 @@ const FEATURES: FeatureItem[] = [
   {
     title: translate({
       id: 'homepage.feature.enthusiast',
-      message: 'AI Enthusiast',
+      message: 'Artificial Intelligence Enthusiast',
     }),
     description: (
-      <Translate>
+      <Translate id="homepage.feature.enthusiast.description">
         Learning about AI technologies and staying updated with the latest advancements, focusing on infrastructure-related AI projects.
       </Translate>
     ),

@@ -49,19 +49,9 @@ const config: Config = {
       },
       hideOnScroll: true,
       items: [
-        {
-          label: 'Project',
-          position: 'right',
-          to: 'project',
-        },
-        {
-          label: 'Blog',
-          position: 'right',
-          to: 'blog',
-        },
-        {
-          label: 'Nexus',
-          position: 'right',
+        { label: 'Project', position: 'right', to: 'project' },
+        { label: 'Blog', position: 'right', to: 'blog', },
+        { label: 'Nexus', position: 'right', 
           items: [
             { label: 'Archive', to: 'blog/archive' },
             { label: 'Resources', to: 'resources' },
@@ -124,7 +114,7 @@ const config: Config = {
         },
       ],
       copyright: `
-        <p>Copyright © 2023 - PRESENT | Built with Docusaurus.</p>
+        <p>Copyright © 2023 - ${new Date().getFullYear()} | Built with Docusaurus.</p>
         `,
     },
     algolia: {
@@ -135,17 +125,7 @@ const config: Config = {
     prism: {
       theme: themes.oneLight,
       darkTheme: themes.oneDark,
-      additionalLanguages: [
-        'bash',
-        'json',
-        'java',
-        'python',
-        'php',
-        'graphql',
-        'rust',
-        'toml',
-        'protobuf',
-      ],
+      additionalLanguages: [ 'bash', 'json', 'java', 'python', 'php', 'graphql', 'rust', 'toml', 'protobuf' ],
       defaultLanguage: 'javascript',
       magicComments: [
         {
@@ -202,11 +182,7 @@ const config: Config = {
       '@docusaurus/plugin-pwa',
       {
         debug: process.env.NODE_ENV === 'development',
-        offlineModeActivationStrategies: [
-          'appInstalled',
-          'standalone',
-          'queryString',
-        ],
+        offlineModeActivationStrategies: [ 'appInstalled', 'standalone', 'queryString' ],
         pwaHead: [
           { tagName: 'link', rel: 'icon', href: '/img/logo.png' },
           { tagName: 'link', rel: 'manifest', href: '/manifest.json' },
@@ -242,7 +218,7 @@ const config: Config = {
         },
       },
     ],
-    async function myPlugin(context, options) {
+    async function tailwindcssPlugin() {
       return {
         name: 'docusaurus-tailwindcss',
         configurePostCss(postcssOptions) {
@@ -250,6 +226,37 @@ const config: Config = {
           postcssOptions.plugins.push(require('tailwindcss'))
           postcssOptions.plugins.push(require('autoprefixer'))
           return postcssOptions
+        },
+      }
+    },
+    async function injectMotto() {
+      return {
+        name: 'docusaurus-motto',
+        injectHtmlTags() {
+          return {
+            headTags: [
+              {
+                tagName: 'script',
+                innerHTML: `
+    (${function () {
+      console.log(
+        `%c FGP Blog %c https://github.com/fernandogprieto/blog`,
+        'color: #fff; margin: 1em 0; padding: 5px 0; background: #12affa;',
+        'margin: 1em 0; padding: 5px 0; background: #efefef;',
+      )
+      const motto = `
+This Webisite Powered By FGP Blog.
+Written by Docusaurus.
+--------
+Love what you do and do what you love.
+`
+      if (document.firstChild?.nodeType !== Node.COMMENT_NODE) {
+        document.prepend(document.createComment(motto))
+      }
+    }.toString()})();`,
+              },
+            ],
+          }
         },
       }
     },

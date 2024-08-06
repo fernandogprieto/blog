@@ -4,9 +4,7 @@ import Layout from '@theme/Layout'
 import MDXContent from '@theme/MDXContent'
 import type { Props } from '@theme/MDXPage'
 import TOC from '@theme/TOC'
-import React from 'react'
 
-import styles from './styles.module.css'
 
 export default function MDXPage(props: Props): JSX.Element {
   const { content: MDXPageContent } = props
@@ -22,7 +20,7 @@ export default function MDXPage(props: Props): JSX.Element {
       <PageMetadata title={title} description={description} />
       <Layout>
         <main className="container--fluid margin-vert--lg container">
-          <div className={cn('row', styles.mdxPageWrapper)}>
+          <div className={cn('col prose dark:prose-invert', 'col--8')}>
             <div className={cn('col', 'col--8')}>
               <MDXContent>
                 <MDXPageContent />

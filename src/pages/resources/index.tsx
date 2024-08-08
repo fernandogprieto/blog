@@ -4,7 +4,6 @@ import { resourceData } from '@site/data/resources'
 import { cn } from '@site/src/lib/utils'
 import BackToTopButton from '@theme/BackToTopButton'
 import Layout from '@theme/Layout'
-import React from 'react'
 import ResourceCard from './_components/ResourceCard'
 import styles from './resource.module.css'
 
@@ -61,8 +60,8 @@ function CategoryList() {
 }
 
 export default function Resources() {
-  const title = '网址导航'
-  const description = '整合日常开发常用，推荐的网站导航页'
+  const title = 'Website Navigation';
+  const description = 'An integrated navigation page of commonly used and recommended websites for daily development'
 
   return (
     <HtmlClassNameProvider className={cn(ThemeClassNames.wrapper.blogPages, ThemeClassNames.page.blogTagsListPage)}>

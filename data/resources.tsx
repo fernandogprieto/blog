@@ -30,25 +30,25 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'AWS Skill Builder',
         desc: 'Your learning center to build in-demand cloud skills.',
-        logo: '/img/resources/aws.png',
+        logo: 'https://a0.awsstatic.com/libra-css/images/site/touch-icon-iphone-114-smile.png',
         href: 'https://explore.skillbuilder.aws/learn',
       },
       {
         name: 'Azure Cloud Skills',
         desc: 'Sharpen your cloud skills to accelerate your career and business results',
-        logo: '/img/resources/azure.ico',
+        logo: 'https://azure.microsoft.com/favicon.ico',
         href: 'https://azure.microsoft.com/en-us/resources/training-and-certifications/',
       },
       {
         name: 'Oracle University',
         desc: 'Accelerate your cloud adoption and manage continuous change with Oracle Guided Learning',
-        logo: '/img/resources/oracle.png',
+        logo: 'img/resources/oracle.png',
         href: 'https://education.oracle.com/',
       },
       {
         name: 'Red Hat Training',
         desc: 'Accelerate your cloud adoption and manage continuous change with Oracle Guided Learning',
-        logo: '/img/resources/redhat.ico',
+        logo: 'https://www.redhat.com/favicon.ico',
         href: 'https://www.redhat.com/en/services/training-and-certification',
       },
       {
@@ -246,7 +246,7 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'The Python Package Index (PyPI)',
           desc: 'The world\'s largest software project hosting platform, discover high-quality open-source projects.',
-          logo: 'https://pypi.org/static/images/logo-small.2a411bc6.svg',
+          logo: 'https://pypi.org/static/images/logo-small.8998e9d1.svg',
           href: 'https://pypi.org/',
           tags: ['Python']
         },

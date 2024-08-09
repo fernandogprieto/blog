@@ -237,7 +237,7 @@ export const resourceData: ResourceCategory[] = [
           href: 'https://kubecolor.github.io/',
           tags: ['Kubernetes Tools'],
         },
-
+        
       ],
     },
     {
@@ -551,7 +551,7 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Stackblitz',
         desc: 'Stackblitz maintains an instant development experience throughout the process. No more local storage/pull/installation hours - just click and start coding',
-        logo: '/img/resources/stackblitz.png',
+        logo: 'https://stackblitz.com/_astro/favicon.svg',
         href: 'https://stackblitz.com/',
         tags: ['Live Coding'],
       },
@@ -650,6 +650,13 @@ export const resourceData: ResourceCategory[] = [
         tags: [],
       },
       {
+        name: 'Commiters Top',
+        desc: 'A list of most active GitHub users in different countries/regions.',
+        logo: 'https://committers.top/images/favicon.ico',
+        href: 'https://committers.top/',
+        tags: [],
+      },
+      {
         name: 'Metrics',
         desc: 'An infographics generator with 30+ plugins and 300+ options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON!',
         logo: 'https://github.githubassets.com/images/icons/emoji/unicode/1f4ca.png',
@@ -657,9 +664,16 @@ export const resourceData: ResourceCategory[] = [
         tags: [],
       },
       {
+        name: 'Github Stats',
+        desc: 'Better GitHub statistics images for your profile, with stats from private repos too',
+        logo: 'https://raw.githubusercontent.com/jstrieb/github-stats/master/generated/overview.svg',
+        href: 'https://github.com/jstrieb/github-stats',
+        tags: [],
+      },
+      {
         name: 'GitHub Profile README Generator',
         desc: 'Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI',
-        logo: '/img/resources/gh-profile.png',
+        logo: 'https://rahuldkjain.github.io/gh-profile-readme-generator/static/mdg-040f54e2f6c858e0a3dcf568c3f2b6f1.png',
         href: 'https://rahuldkjain.github.io/gh-profile-readme-generator/',
         tags: [],
       },

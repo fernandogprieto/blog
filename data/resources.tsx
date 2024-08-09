@@ -60,19 +60,19 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Linux Foundation Training',
         desc: 'Building, maintaining, and managing IT infrastructures of companies',
-        logo: '/img/resources/lf.png',
+        logo: 'https://www.linuxfoundation.org/favicon.ico',
         href: 'https://training.linuxfoundation.org/',
       },
       {
         name: 'Docker',
         desc: 'Build images, run containers, use volumes to persist data and mount in source code',
-        logo: '/img/resources/docker.png',
+        logo: 'https://www.docker.com/favicon.ico',
         href: 'https://www.docker.com/101-tutorial/',
       },
       {
         name: 'Kubernetes Training',
         desc: 'Accelerate your cloud adoption and manage continuous change with Oracle Guided Learning',
-        logo: '/img/resources/k8s.png',
+        logo: 'https://kubernetes.io/images/kubernetes.png  ',
         href: 'https://kubernetes.io/training/',
       },
       {
@@ -84,7 +84,7 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Nginx Training',
         desc: 'Fundamentals to advanced load balancing, advanced caching, security, and more.',
-        logo: '/img/resources/nginx.png',
+        logo: 'https://nginx.org/favicon.ico',
         href: 'https://www.nginx.com/learn/nginx-training/',
       },
     ],
@@ -131,41 +131,41 @@ export const resourceData: ResourceCategory[] = [
           name: 'Terrascan',
           desc: 'Detect compliance and security violations across',
           logo: '/img/resources/terrascan.png',
-          href: 'https://www.brainboard.co/',
+          href: 'https://runterrascan.io/',
           tags: ['IaaC'],
         },
         {
           name: 'Infracost',
           desc: 'Cloud cost estimates for Terraform in pull requests',
-          logo: '/img/resources/infracost.webp',
+          logo: 'https://www.infracost.io/wp-content/uploads/2023/10/Icon.jpeg',
           href: 'https://www.infracost.io/',
           tags: ['IaaC'],
         },
         {
           name: 'Aqua Tfsec',
           desc: 'Security scanner for your Terraform code',
-          logo: '/img/resources/aqua-tfsec.webp',
+          logo: 'https://aquasecurity.github.io/trivy/v0.54/imgs/logo.png',
           href: 'https://github.com/aquasecurity/tfsec',
           tags: ['IaaC'],
         },
         {
           name: 'Webhook.site',
           desc: 'Lets you easily inspect, test and automate any incoming HTTP request or e-mail.',
-          logo: '/img/resources/webhook-site.webp',
+          logo: 'https://cdn.webhook.site/assets/icons/apple-touch-icon.png',
           href: 'https://webhook.site/',
           tags: ['IaaC'],
         },
         {
           name: 'Checkov',
           desc: 'Policy as a code .',
-          logo: '/img/resources/checkov.webp',
+          logo: 'https://www.checkov.io/assets/img/favicon.png',
           href: 'https://www.checkov.io/',
           tags: ['IaaC'],
         },
         {
           name: 'Open Policy Agent',
           desc: 'Policy-based control for cloud native environments',
-          logo: '/img/resources/openpolicy.webp',
+          logo: 'https://www.openpolicyagent.org/img/logo.png',
           href: 'https://www.openpolicyagent.org/',
           tags: ['IaaC'],
         },
@@ -179,7 +179,7 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'Ansible',
           desc: 'Build infrastructure intuitively on any cloud using familiar languages.',
-          logo: '/img/resources/ansible_logo.svg_.png',
+          logo: 'https://docs.ansible.com/static/images/community_logo.svg',
           href: 'https://www.ansible.com/',
           tags: ['IaaC'],
         },
@@ -198,7 +198,7 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'K8slens',
           desc: 'IDE for Kubernetes. The only system you\'ll ever need to take control of your Kubernetes clusters.',
-          logo: '/img/resources/k8slens.png',
+          logo: 'https://k8slens.dev/favicon.ico',
           href: 'https://k8slens.dev/',
           tags: ['Kubernetes Tools'],
         },
@@ -212,15 +212,15 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'Bitnami',
           desc: 'Provides pre-configured stacks for easy deployment and management of open-source applications',
-          logo: '/img/resources/bitnami.png',
+          logo: 'https://bitnami.com/apple-touch-icon-144x144.png',
           href: 'https://bitnami.com/',
           tags: ['Kubernetes Tools'],
         },
         {
           name: 'ArtifactHub',
           desc: 'Find, install and publish kubernetes packages',
-          logo: '/img/resources/artifacthub.png',
-          href: 'https://bitnami.com/stacks/helm',
+          logo: 'https://artifacthub.io/static/media/logo192_v2.png',
+          href: 'https://artifacthub.io/',
           tags: ['Kubernetes Tools'],
         },
         {
@@ -233,8 +233,8 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'Kubecolor',
           desc: 'Colorizes kubectl output!',
-          logo: '/img/resources/kube-color.png',
-          href: 'https://github.com/hidetatz/kubecolor',
+          logo: 'https://kubecolor.github.io/favicon.svg',
+          href: 'https://kubecolor.github.io/',
           tags: ['Kubernetes Tools'],
         },
 
@@ -253,7 +253,7 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'Psutil',
           desc: 'Cross-platform lib for process and system monitoring in Python.',
-          logo: '/img/resources/psutil-logo.png',
+          logo: 'https://raw.githubusercontent.com/giampaolo/psutil/master/docs/_static/psutil-logo.png',
           href: 'https://pypi.org/project/psutil/',
           tags: ['Python']
         },
@@ -288,14 +288,14 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'Scapy',
           desc: 'An Interactive packet manipulation program and library',
-          logo: '/img/resources/scapy.png',
+          logo: 'https://scapy.net/favicon.ico',
           href: 'https://pypi.org/project/scapy/',
           tags: ['Python']
         },
         {
           name: 'Requests',
           desc: 'A simple, yet elegant, HTTP library',
-          logo: '/img/resources/requests.webp',
+          logo: 'https://requests.readthedocs.io/en/latest/_static/requests-sidebar.png',
           href: 'https://pypi.org/project/requests/',
           tags: ['Python']
         },
@@ -358,7 +358,7 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'Fabric',
           desc: 'High level SSH command execution',
-          logo: '/img/resources/fabric.png ',
+          logo: 'https://docs.fabfile.org/en/latest/_static/logo.png',
           href: 'https://docs.fabfile.org/en/latest/  ',
           tags: ['Python']
         },
@@ -372,7 +372,7 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'PyTest',
           desc: 'simple powerful testing with Python',
-          logo: '/img/resources/pytest.svg',
+          logo: 'https://docs.pytest.org/en/stable/_static/pytest1.png',
           href: 'https://docs.pytest.org/en/stable/',
           tags: ['Python']
         },
@@ -384,28 +384,28 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'Bash',
           desc: 'Bash is the GNU Project\'s shell—the Bourne Again SHell.',
-          logo: '/img/resources/bash.png',
+          logo: 'https://bashlogo.com/img/symbol/svg/full_colored_dark.svg',
           href: 'https://www.gnu.org/software/bash/',
           tags: ['Scripting'],
         },
         {
           name: 'Powershell',
           desc: 'Microsoft-built framework for Windows task automation and configuration management.',
-          logo: '/img/resources/power-shell.webp',
+          logo: 'https://learn.microsoft.com/en-us/media/logos/logo-powershell.png',
           href: 'https://www.gnu.org/software/bash/',
           tags: ['Scripting'],
         },
         {
           name: 'Go',
           desc: 'An open-source programming language supported by Google.',
-          logo: '/img/resources/go-lang.png',
+          logo: 'https://go.dev/images/favicon-gopher.png',
           href: 'https://go.dev/',
           tags: ['Scripting'],
         },
         {
           name: 'Lua',
           desc: 'Is a powerful, efficient, lightweight, embeddable scripting language.',
-          logo: '/img/resources/lua.png',
+          logo: 'https://www.lua.org/images/luaa.gif',
           href: 'https://www.gnu.org/software/bash/',
           tags: ['Scripting'],
         },

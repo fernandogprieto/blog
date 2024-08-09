@@ -431,7 +431,7 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'Open Up The Cloud',
           desc: 'GET YOUR START, AND GROW YOUR CAREER IN CLOUD.',
-          logo: '/img/resources/openupthecloud.ico',
+          logo: 'https://openupthecloud.com/wp-content/uploads/2021/04/Screenshot-2021-04-03-at-07.48.45.ico',
           href: 'https://openupthecloud.com/',
           tags: ['Educational Resources'],
         },
@@ -452,7 +452,7 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'ACloudGuru',
           desc: 'A Plurasight company.',
-          logo: '/img/resources/acloudguru.png',
+          logo: 'https://www.pluralsight.com/favicon.ico',
           href: 'https://acloudguru.com/',
           tags: ['Educational Resources'],
         },
@@ -478,7 +478,7 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'Bitbucket',
           desc: 'Bitbucket Cloud is the native Git tool in Atlassian\'s Open DevOps solution.',
-          logo: '/img/resources/bitbucket.png',
+          logo: 'https://bitbucket.org/favicon.ico',
           href: 'https://bitbucket.org/',
           tags: ['Code Hosting'],
         },
@@ -525,7 +525,7 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Gitpod',
         desc: 'Cloud development environments are the fastest,and more secure way, to ship code.',
-        logo: '/img/resources/gitpod.png',
+        logo: 'https://www.gitpod.io/favicon192.png',
         href: 'https://www.gitpod.io/',
         tags: ['Website Hosting'],
       },

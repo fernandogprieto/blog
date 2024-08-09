@@ -237,7 +237,7 @@ export const resourceData: ResourceCategory[] = [
           href: 'https://kubecolor.github.io/',
           tags: ['Kubernetes Tools'],
         },
-
+        
       ],
     },
     {
@@ -431,7 +431,7 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'Open Up The Cloud',
           desc: 'GET YOUR START, AND GROW YOUR CAREER IN CLOUD.',
-          logo: '/img/resources/openupthecloud.ico',
+          logo: 'https://openupthecloud.com/wp-content/uploads/2021/04/Screenshot-2021-04-03-at-07.48.45.ico',
           href: 'https://openupthecloud.com/',
           tags: ['Educational Resources'],
         },
@@ -452,7 +452,7 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'ACloudGuru',
           desc: 'A Plurasight company.',
-          logo: '/img/resources/acloudguru.png',
+          logo: 'https://www.pluralsight.com/favicon.ico',
           href: 'https://acloudguru.com/',
           tags: ['Educational Resources'],
         },
@@ -478,7 +478,7 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'Bitbucket',
           desc: 'Bitbucket Cloud is the native Git tool in Atlassian\'s Open DevOps solution.',
-          logo: '/img/resources/bitbucket.png',
+          logo: 'https://bitbucket.org/favicon.ico',
           href: 'https://bitbucket.org/',
           tags: ['Code Hosting'],
         },
@@ -525,7 +525,7 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Gitpod',
         desc: 'Cloud development environments are the fastest,and more secure way, to ship code.',
-        logo: '/img/resources/gitpod.png',
+        logo: 'https://www.gitpod.io/favicon192.png',
         href: 'https://www.gitpod.io/',
         tags: ['Website Hosting'],
       },
@@ -551,7 +551,7 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Stackblitz',
         desc: 'Stackblitz maintains an instant development experience throughout the process. No more local storage/pull/installation hours - just click and start coding',
-        logo: '/img/resources/stackblitz.png',
+        logo: 'https://stackblitz.com/_astro/favicon.svg',
         href: 'https://stackblitz.com/',
         tags: ['Live Coding'],
       },
@@ -650,6 +650,13 @@ export const resourceData: ResourceCategory[] = [
         tags: [],
       },
       {
+        name: 'Commiters Top',
+        desc: 'A list of most active GitHub users in different countries/regions.',
+        logo: 'https://committers.top/images/favicon.ico',
+        href: 'https://committers.top/',
+        tags: [],
+      },
+      {
         name: 'Metrics',
         desc: 'An infographics generator with 30+ plugins and 300+ options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON!',
         logo: 'https://github.githubassets.com/images/icons/emoji/unicode/1f4ca.png',
@@ -657,9 +664,16 @@ export const resourceData: ResourceCategory[] = [
         tags: [],
       },
       {
+        name: 'Github Stats',
+        desc: 'Better GitHub statistics images for your profile, with stats from private repos too',
+        logo: 'https://raw.githubusercontent.com/jstrieb/github-stats/master/generated/overview.svg',
+        href: 'https://github.com/jstrieb/github-stats',
+        tags: [],
+      },
+      {
         name: 'GitHub Profile README Generator',
         desc: 'Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI',
-        logo: '/img/resources/gh-profile.png',
+        logo: 'https://rahuldkjain.github.io/gh-profile-readme-generator/static/mdg-040f54e2f6c858e0a3dcf568c3f2b6f1.png',
         href: 'https://rahuldkjain.github.io/gh-profile-readme-generator/',
         tags: [],
       },

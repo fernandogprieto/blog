@@ -107,17 +107,24 @@ export const resourceData: ResourceCategory[] = [
           tags: ['IaaC'],
         },
         {
+          name: 'Vault',
+          desc: 'Manage Secrets & Protect Sensitive Data',
+          logo: 'https://www.datocms-assets.com/2885/1676497447-vault-favicon-color.png?h=192&w=192',
+          href: 'https://www.vaultproject.io/',
+          tags: ['IaaC'],
+        },
+        {
+          name: 'Packer',
+          desc: 'Standardize image workflows across cloud providers',
+          logo: 'https://www.datocms-assets.com/58478/1638283616-packer.svg?auto=format&fit=max&w=1200',
+          href: 'https://www.hashicorp.com/products/packer',
+          tags: ['IaaC'],
+        },
+        {
           name: 'Jenkins',
           desc: 'Automate the parts of software development related to building, testing, and deploying, CI/CD ',
           logo: 'https://www.jenkins.io/apple-touch-icon.png',
           href: 'https://www.jenkins.io/',
-          tags: ['IaaC'],
-        },
-        {
-          name: 'Vault',
-          desc: 'Manage Secrets & Protect Sensitive Data',
-          logo: '/img/resources/vault.png',
-          href: 'https://www.vaultproject.io/',
           tags: ['IaaC'],
         },
         {
@@ -260,28 +267,28 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'Os module',
           desc: 'Miscellaneous operating system interfaces.',
-          logo: '/img/resources/python-module.png',
+          logo: '/img/resources/python-module.jpg',
           href: 'https://docs.python.org/3/library/os.html',
           tags: ['Python']
         },
         {
           name: 'Subprocess',
           desc: 'Subprocess management.',
-          logo: '/img/resources/python-module.png',
+          logo: '/img/resources/python-module.jpg',
           href: 'https://docs.python.org/3/library/subprocess.html',
           tags: ['Python']
         },
         {
           name: 'Sys',
           desc: 'System-specific parameters and functions.',
-          logo: '/img/resources/python-module.png',
+          logo: '/img/resources/python-module.jpg',
           href: 'https://docs.python.org/3/library/sys.html',
           tags: ['Python']
         },
         {
           name: 'Re',
           desc: 'Regular expression operations.',
-          logo: '/img/resources/python-module.png',
+          logo: '/img/resources/python-module.jpg',
           href: 'https://docs.python.org/3/library/re.html',
           tags: ['Python']
         },
@@ -309,49 +316,49 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'Logging',
           desc: 'Provide a standard error logging mechanism in Python as per PEP 282.',
-          logo: '/img/resources/python-module.png',
+          logo: '/img/resources/python-module.jpg',
           href: 'https://pypi.org/project/logging/',
           tags: ['Python']
         },
         {
           name: 'Getpass',
           desc: 'Portable password input.',
-          logo: '/img/resources/python-module.png',
+          logo: '/img/resources/python-module.jpg',
           href: 'https://docs.python.org/3/library/getpass.html',
           tags: ['Python']
         },
         {
           name: 'Boto3',
           desc: 'The AWS SDK for Python.',
-          logo: '/img/resources/python-module.png',
+          logo: '/img/resources/python-module.jpg',
           href: 'https://pypi.org/project/boto3/',
           tags: ['Python']
         },
         {
           name: 'Paramiko',
           desc: 'A Python implementation of SSHv2.',
-          logo: '/img/resources/python-module.png',
+          logo: '/img/resources/python-module.jpg',
           href: 'https://www.paramiko.org/',
           tags: ['Python']
         },
         {
           name: 'JSON',
           desc: 'Encoder and decoder.',
-          logo: '/img/resources/python-module.png',
+          logo: '/img/resources/python-module.jpg',
           href: 'https://docs.python.org/3/library/json.html',
           tags: ['Python']
         },
         {
           name: 'PyYaml',
           desc: 'Is a YAML parser and emitter for Python.',
-          logo: '/img/resources/python-module.png',
+          logo: '/img/resources/python-module.jpg',
           href: 'https://pyyaml.org/wiki/PyYAMLDocumentation',
           tags: ['Python']
         },
         {
           name: 'Smtplib',
           desc: 'SMTP protocol client.',
-          logo: '/img/resources/python-module.png',
+          logo: '/img/resources/python-module.jpg',
           href: 'https://docs.python.org/3/library/smtplib.html',
           tags: ['Python']
         },
@@ -365,7 +372,7 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'PyWinRM',
           desc: 'Python library for Windows Remote Management',
-          logo: '/img/resources/python-module.png',
+          logo: '/img/resources/python-module.jpg',
           href: 'https://pypi.org/project/pywinrm/',
           tags: ['Python']
         },

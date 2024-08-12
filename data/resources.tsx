@@ -116,7 +116,7 @@ export const resourceData: ResourceCategory[] = [
         {
           name: 'Packer',
           desc: 'Standardize image workflows across cloud providers',
-          logo: 'https://www.hashicorp.com/_next/static/media/packer_on-dark.e64eb06d.svg',
+          logo: 'https://www.datocms-assets.com/58478/1638283616-packer.svg?auto=format&fit=max&w=1200',
           href: 'https://www.hashicorp.com/products/packer',
           tags: ['IaaC'],
         },

@@ -423,6 +423,13 @@ export const resourceData: ResourceCategory[] = [
           href: 'https://www.json.org/ ',
           tags: ['Config'],
         },
+        {
+          name: 'Rust',
+          desc: 'A language empowering everyone to build reliable and efficient software.',
+          logo: 'https://www.rust-lang.org/static/images/favicon.svg',
+          href: 'https://www.rust-lang.org/',
+          tags: ['Config'],
+        },
       ],
     },
     {
@@ -901,7 +908,7 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Claude',
         desc: 'Claude is a next generation AI assistant built for work and trained to be safe, accurate, and secure by Anthropic.',
-        logo: 'https://claude.ai/favicon.ico',
+        logo: 'https://claude.ai/images/claude_app_icon.png',
         href: 'https://claude.ai/',
         tags: ['AI'],
       },
@@ -927,7 +934,7 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'DeepMind',
         desc: 'Interesting challenges in AI.',
-        logo: '/img/resources/deepmind.png',
+        logo: 'https://deepmind.google/static/icons/google_deepmind_48dp.5b470587fe7d.svg',
         href: 'https://www.deepmind.com/',
         tags: ['MLOps'],
       },
@@ -941,21 +948,21 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Meta AI',
         desc: 'Build your AI career.',
-        logo: '/img/resources/meta.png',
+        logo: 'https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/WUJbsVI4ruF.png',
         href: 'https://ai.facebook.com/',
         tags: ['MLOps'],
       },
       {
         name: 'Google AI',
         desc: 'Advancing AI for everyone.',
-        logo: '/img/resources/google-ai.svg',
+        logo: 'https://ai.google/static/images/share.png',
         href: 'https://ai.google/',
         tags: ['MLOps'],
       },
       {
         name: 'Microsoft AI',
         desc: 'Embrace the future of productivity and limitless innovation.',
-        logo: '/img/resources/azure.ico',
+        logo: 'https://www.microsoft.com/favicon.ico?v2',
         href: 'https://www.microsoft.com/en-us/ai',
         tags: ['MLOps'],
       },
@@ -983,7 +990,7 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'PyTorch',
         desc: 'The fundamental package for scientific computing with Python.',
-        logo: '/img/resources/pytorch.png',
+        logo: 'https://pytorch.org/assets/images/logo-icon.svg',
         href: 'https://pytorch.org/',
         tags: ['MLOps'],
       },

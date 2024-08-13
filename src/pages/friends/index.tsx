@@ -9,7 +9,7 @@ import { motion } from 'framer-motion'
 import styles from './styles.module.css'
 
 const TITLE = 'Friend Links'
-const DESCRIPTION = 'Having many good friends is better than having much wealth.'
+const DESCRIPTION = 'Having many good friends.'
 const ADD_FRIEND_URL = 'https://github.com/fernandogprieto/blog/edit/main/data/friends.tsx'
 const SITE_INFO = `
 title: 'Fernando Prieto'

@@ -915,7 +915,7 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Claude',
         desc: 'Claude is a next generation AI assistant built for work and trained to be safe, accurate, and secure by Anthropic.',
-        logo: 'https://claude.ai/images/claude_app_icon.png',
+        logo: 'img/resources/claude.png',
         href: 'https://claude.ai/',
         tags: ['AI'],
       },

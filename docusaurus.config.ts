@@ -71,10 +71,10 @@ const config: Config = {
         {
           title: 'Nexus',
           items: [
+            { label: 'Tags', to: 'blog/tags/' },
             { label: 'Blog', to: 'blog'},
             { label: 'Archive', to: 'blog/archive' },
             { label: 'Projects', to: 'project' },
-            { label: 'Frontend Examples', to: 'https://example.kuizuo.cn' },
           ],
         },
         {

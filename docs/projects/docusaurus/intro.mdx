@@ -6,7 +6,9 @@ authors: fernandogprieto
 keywords: ['guides', 'docusaurus', 'docusaurus-guides']
 ---
 
-Welcome to my personal website, where I've leveraged the power of Docusaurus to create a comprehensive, responsive, and user-friendly platform. Here, you can explore my documentation, blog, and other content, all organized and presented with Docusaurus' robust features.
+Welcome to my personal website, where I've leveraged the power of [Docusaurus](https://docusaurus.io) to create a comprehensive, responsive, and user-friendly platform. Here, you can explore my documentation, blog, and other content, all organized and presented with Docusaurus' robust features.
+
+Thew new version is here [Docusaurus 3.0](https://docusaurus.io/docs/3.0.1)
 
 Through Docusaurus, I've been able to achieve:
 
@@ -17,8 +19,8 @@ Through Docusaurus, I've been able to achieve:
 - **Customization**: Experience a unique website design, tailored to reflect my personal style and preferences.
 - **Localization**: Access the website in multiple languages, catering to a diverse and global audience.
 
-Feel free to explore the different sections of my website and learn more about my work, ideas, and passions.
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
 
-import DocCardList from '@theme/DocCardList'; import {useCurrentSidebarCategory} from '@docusaurus/theme-common';
-
-<DocCardList items={useCurrentSidebarCategory().items}/>
+<DocCardList />
+```

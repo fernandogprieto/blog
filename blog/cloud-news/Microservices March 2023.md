@@ -12,7 +12,7 @@ sticky: 8
 
 ## My Microservices Experience: Learning and Development
 
-I just took part in [Microservices March 2023](https://www.nginx.com/c/microservices-march-2023-agenda/), a free, month-long educational program designed to broaden
+I just took part in [Microservices March 2023](https://www.f5.com/company/blog/nginx/nginx-tutorial-deploy-configure-microservices), a free, month-long educational program designed to broaden
 my understanding of microservices. 
 
 <!-- truncate -->

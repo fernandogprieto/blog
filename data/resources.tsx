@@ -908,7 +908,7 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Gemini',
         desc: 'AI-powered search engine owned and operated by Google.',
-        logo: '/img/resources/bard.png',
+        logo: '/img/resources/bard.gif',
         href: 'https://bard.google.com/',
         tags: ['AI'],
       },
@@ -976,7 +976,7 @@ export const resourceData: ResourceCategory[] = [
       {
         name: 'Tensorflow',
         desc: 'Create production-grade machine learning models.',
-        logo: 'https://www.tensorflow.org/favicon.ico',
+        logo: 'img/resources/tensorflow.png',
         href: 'https://www.tensorflow.org/',
         tags: ['MLOps'],
       },

@@ -7,12 +7,15 @@ authors: fernandogprieto
 tags: [microsoft , cloudskillchallenge, microsoft-build, cloud]
 keywords: [microsoft , cloudskillchallenge, microsoft-build, cloud]
 image: https://img.kuizuo.cn/202312270253535.png
+sticky: 10
 ---
-
-## Microsoft Build 2023
 
 [Microsoft Build](https://build.microsoft.com/) is an annual conference for developers and IT professionals. It is a great opportunity to learn about the latest Microsoft technologies, network with other developers, and see demos of new products.
 This Year was an amazing improve to AI tools.
+
+<!-- truncate -->
+
+## Microsoft Build 2023
 
 ![Conference](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/blog/microsoft-build-ai.png)
 

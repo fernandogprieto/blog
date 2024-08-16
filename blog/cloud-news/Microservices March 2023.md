@@ -7,12 +7,17 @@ authors: fernandogprieto
 tags: [nginx, microoservices]
 hide_table_of_contents: false
 image: https://img.kuizuo.cn/202312270109542.png
+sticky: 8
 ---
 
 ## My Microservices Experience: Learning and Development
 
 I just took part in [Microservices March 2023](https://www.nginx.com/c/microservices-march-2023-agenda/), a free, month-long educational program designed to broaden
-my understanding of microservices. I learned about the Twelve-Factor App, secrets management, automation,
+my understanding of microservices. 
+
+<!-- truncate -->
+
+I learned about the Twelve-Factor App, secrets management, automation,
 and observability through webinars and hands-on labs. This experience has not only broadened my awareness
 of microservices, but it has also provided me with useful insights and practical skills that I can implement
 in my work.During the webinar, attendees can interact with other participants and the staff through chat,

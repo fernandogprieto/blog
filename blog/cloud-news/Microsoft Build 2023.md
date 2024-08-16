@@ -6,18 +6,14 @@ date: 2023-06-22
 authors: fernandogprieto
 tags: [microsoft , cloudskillchallenge, microsoft-build, cloud]
 keywords: [microsoft , cloudskillchallenge, microsoft-build, cloud]
-image: https://img.kuizuo.cn/202312270253535.png
-sticky: 10
+image: https://eqxffxilu02odziv.public.blob.vercel-storage.com/2024/microsoft-build-ai.png
+sticky: 8
 ---
 
 [Microsoft Build](https://build.microsoft.com/) is an annual conference for developers and IT professionals. It is a great opportunity to learn about the latest Microsoft technologies, network with other developers, and see demos of new products.
 This Year was an amazing improve to AI tools.
 
 <!-- truncate -->
-
-## Microsoft Build 2023
-
-![Conference](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/blog/microsoft-build-ai.png)
 
 ## Microsoft Learn Cloud Challenge
 [The Microsoft Learn Cloud Skills Challenge](https://www.microsoft.com/en-US/cloudskillschallenge/build/registration) starts May 23, 2023 at 4:00 PM (16:00) UTC and ends on June 20, 2023 at 4:00 PM (16:00) UTC.

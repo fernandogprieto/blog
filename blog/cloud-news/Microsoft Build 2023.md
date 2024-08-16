@@ -7,7 +7,7 @@ authors: fernandogprieto
 tags: [microsoft , cloudskillchallenge, microsoft-build, cloud]
 keywords: [microsoft , cloudskillchallenge, microsoft-build, cloud]
 image: https://eqxffxilu02odziv.public.blob.vercel-storage.com/2024/microsoft-build-ai.png
-sticky: 8
+sticky: 10
 ---
 
 [Microsoft Build](https://build.microsoft.com/) is an annual conference for developers and IT professionals. It is a great opportunity to learn about the latest Microsoft technologies, network with other developers, and see demos of new products.

@@ -20,7 +20,7 @@ const config: Config = {
     //   id: 'announcementBar-3',
     //   content: ``,
     // },
-    image: 'img/og.png',
+    image: 'img/logo.png',
     metadata: [
       {
         name: 'author',

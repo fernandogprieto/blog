@@ -6,7 +6,7 @@ date: 2023-04-11
 authors: fernandogprieto
 tags: [nginx, microoservices]
 hide_table_of_contents: false
-image: https://img.kuizuo.cn/202312270109542.png
+image: https://eqxffxilu02odziv.public.blob.vercel-storage.com/2024/microservices-march-2023.png
 sticky: 8
 ---
 

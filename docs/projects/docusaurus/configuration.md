@@ -49,54 +49,19 @@ For more information [Sidebar | Docusaurus](https://docusaurus.io/docs/sidebar)
 To modify this section, go to the `src/pages/about/index.js` file. The SVG images featured on the site come from [Svg Repo](https://www.svgrepo.com/), and they are organized in the `static/img/` and `static/svg/` directories for images and SVG files, respectively. I created my distinctive avatar using Lensa, an innovative tool offered by Prisma AI. Visit [Lensa](https://prisma-ai.com/lensa) to explore Lensa's capabilities and craft your own personalized avatars or improve existing images.
 
 ## Social media
-Feel free to customize this code to suit your own social media links:
-```js
-<div className="svg_row" >
-              <a href="mailto:prieto.fernandog@gmail.com" target="_blank" rel="noopener noreferrer">
-                <ThemedImage
-                  alt="Email icon"
-                  sources={{
-                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/email.svg',
-                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/email-light.svg',
-                  }}
-                />
-              </a>
-              <a href="https://open.spotify.com/user/3132r43u32abukk6v3gwbbm64vx4?si=a0b6dbdbab8b4688&nd=1" target="_blank" rel="noopener noreferrer">
-                <ThemedImage
-                  alt="Spotify icon"
-                  sources={{
-                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/spotify.svg',
-                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/spotify-light.svg',
-                  }}
-                />
-              </a>
-              <a href="https://discord.gg/zAZC37Mfxp" target="_blank" rel="noopener noreferrer">
-                <ThemedImage
-                  alt="Discord icon"
-                  sources={{
-                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord.svg',
-                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/discord-light.svg',
-                  }}
-                />
-              </a>
-              <a href="https://twitter.com/fernandogprieto" target="_blank" rel="noopener noreferrer">
-                <ThemedImage
-                  alt="Twitter icon"
-                  sources={{
-                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/twitter.svg',
-                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/twitter-light.svg',
-                  }}
-                />
-              </a>
-              <a href="https://www.linkedin.com/in/fernando-prieto-carabobo/" target="_blank" rel="noopener noreferrer">
-                <ThemedImage
-                  alt="LinkedIn icon"
-                  sources={{
-                  light: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/linkedin.svg',
-                  dark: 'https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/svg/linkedin-light.svg',
-                  }}
-                />
+Feel free to customize this code to suit your own social media links  in `data/social.ts`
+
+```typescript title='social.ts' icon='logos:typescript-icon'
+export type Social = {
+  linkedin?: string
+  github?: string
+  x?: string
+  email?: string
+  discord?: string
+  spotify?: string
+}
 ```
+
 ## Others configs 
 ### Google Analytics
 - First, you need to create an account on [Google Analytics](https://analytics.google.com).

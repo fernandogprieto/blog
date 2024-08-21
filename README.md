@@ -9,7 +9,7 @@ Fernando's Personal Blog
 
 ## 👋 Introduction
 
-Here, I will share problems encountered and solutions in various tech stacks, helping you understand the latest tech stacks and how to apply them in actual development. I hope my development experience will inspire you.
+Welcome to my journey where cloud computing, AI, and open source innovation intersect. Join me to solve problems and apply practical solutions. Ready?
 
 If you want to build a similar site, you can directly [Fork](https://github.com/kuizuo/fernandogprieto/fork) this repository or run this project online through [StackBlitz](https://stackblitz.com/github/fernandogprieto/blog). You can also deploy it with one click via [Vercel](https://vercel.com/new/clone?repository-url=https://github.com/fernandogprieto/blog/tree/main&project-name=blog&repo-name=blog).
 
@@ -29,7 +29,7 @@ If you want to build a similar site, you can directly [Fork](https://github.com/
 - 🌈 **Resource Navigation** - Collect and share useful and interesting resources.
 - 📦 **Project Showcase** - Showcase your projects, can be used as a portfolio.
 
-My theme customization implementation: Docusaurus Theme Customization
+My theme customization implementation: [Docusaurus Theme Customization](https://fernandogprieto.com/docs/docusaurus-guides)
 
 ## :wrench: Tech Stack
 

@@ -82,7 +82,7 @@ Build
 pnpm build
 ```
 
-<! -- ## 📷 Screenshots
+<!-- ## 📷 Screenshots
 
 <img width="1471" alt="Live Demo" src="https://github.com/kuizuo/blog/blob/main/static/img/og.png?raw=true"> -->
 

@@ -6,7 +6,7 @@
     "message": "This is my portfolio of my hard practice and application in the field of tecnology"
   },
   "theme.blog.archive.posts.unit": {
-    "message": "篇"
+    "message": "Chapter"
   },
   "theme.blog.archive.title": {
     "message": "Archive",
@@ -17,7 +17,7 @@
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.archive.posts.total": {
-    "message": "当前共有 {total} 篇文章，请持续保持创作！"
+    "message": "Currently, there are {total} articles. Please keep creating!"
   },
   "theme.blog.title.new": {
     "message": "Blog"

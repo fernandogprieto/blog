@@ -52,6 +52,12 @@ export const Friends: Friend[] = [
     description: 'Telecommunications Engineer & Elevated Tower Technician',
     website: 'https://www.linkedin.com/in/braymi-jimenez/',
     avatar: '/img/friend/braymi.jpeg',
+  },
+  {
+    title: 'Jhon',
+    description: 'Full Stack Developer',
+    website: 'https://www.linkedin.com/in/john-alexander-soto/',
+    avatar: '/img/friend/jhon.jpeg',
   }
 ]
 

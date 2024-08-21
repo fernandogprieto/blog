@@ -20,7 +20,7 @@
     "message": "当前共有 {total} 篇文章，请持续保持创作！"
   },
   "theme.blog.title.new": {
-    "message": "博客"
+    "message": "Blog"
   },
   "theme.blog.post.plurals": {
     "message": "One post|{count} posts",

@@ -250,8 +250,6 @@ const config: Config = {
       const motto = `
 This Webisite Powered By FGP Blog.
 Written by Docusaurus.
---------
-Love what you do and do what you love.
 `
       if (document.firstChild?.nodeType !== Node.COMMENT_NODE) {
         document.prepend(document.createComment(motto))

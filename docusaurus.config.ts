@@ -168,8 +168,11 @@ const config: Config = {
           priority: 0.5,
         },
         gtag: {
-          trackingID: 'G-S4SD5NXWXF',
+          trackingID: 'G-KEB70ZG5C5',
           anonymizeIP: true,
+        },
+        googleTagManager: {
+          containerId: 'GT-MJM9PBM',
         },
         debug: process.env.NODE_ENV === 'development',
       } satisfies Preset.Options,

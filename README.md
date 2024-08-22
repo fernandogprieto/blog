@@ -76,7 +76,7 @@ pnpm install
 pnpm start
 ```
 
-Build
+## Build
 
 ```bash
 pnpm build

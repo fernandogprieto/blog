@@ -120,7 +120,7 @@ const config: Config = {
     algolia: {
       appId:'24X5RPXC2W',
       apiKey: '5b4935545231c4855105b3255c4ec7a0',
-      indexName: 'fgp_website',
+      indexName: 'fgp_blog',
     },
     prism: {
       theme: themes.oneLight,

@@ -97,12 +97,12 @@ export type Social = {
 ### Plugin gtag
 - Install this plugin in your project:
 ```
-npm install --save @docusaurus/plugin-google-gtag
+pnpm install --save @docusaurus/plugin-google-gtag
 ```
 
 - Configure the preset option and paste the `MEASUREMENT ID`.
-  
-```js title=docusaurus.config.js
+- 
+```typescript title='docusaurus.config.ts' icon='logos:typescript-icon' 
 module.exports = {
   presets: [
     [

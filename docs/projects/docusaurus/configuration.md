@@ -46,7 +46,7 @@ Designed for organizing various documentation resources, such as technical artic
 For more information [Sidebar | Docusaurus](https://docusaurus.io/docs/sidebar)
 
 ## About me
-To modify this section, go to the `src/pages/about.md` file. 
+To modify this section, go to the `src/pages/about.mdx` file. 
 
 ## Social media
 Feel free to customize this code to suit your own social media links  in `data/social.ts`
@@ -101,7 +101,7 @@ pnpm install --save @docusaurus/plugin-google-gtag
 ```
 
 - Configure the preset option and paste the `MEASUREMENT ID`.
-- 
+   
 ```typescript title='docusaurus.config.ts' icon='logos:typescript-icon' 
 module.exports = {
   presets: [
@@ -117,3 +117,10 @@ module.exports = {
   ],
 };
 ```
+## 
+
+## Homepage
+
+Since [blog-only mode](https://docusaurus.io/docs/blog#blog-only-mode) is active, the blog post list serves as your homepage by default. To avoid a Home path conflict, rename or delete the `src/pages/index.tsx` file. Alternatively, create a dedicated homepage that redirects to the blog list, similar to Docusaurus.
+
+To enhance the blog's visual appeal, we added a Hero component for a strong first impression. The SVG background for the homepage is located at `src/components/landing/Hero/img/hero_main.svg`. This illustration is sourced from [unDraw](https://undraw.co/illustrations), but you can also opt for a custom design by an illustrator.

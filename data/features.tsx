@@ -1,8 +1,8 @@
 import Translate, { translate } from '@docusaurus/Translate'
 import { Icon } from '@iconify/react'
 import AiSvg from '@site/static/svg/undraw_artificial_intelligence.svg'
-import CloudEngineerSvg from '@site/static/svg/undraw_cloud_hosting.svg'
 import OpenSourceSvg from '@site/static/svg/undraw_open_source.svg'
+import CloudEngineerSvg from '@site/static/svg/undraw_programming.svg'
 
 export type FeatureItem = {
   title: string | React.ReactNode

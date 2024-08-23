@@ -46,7 +46,7 @@ Designed for organizing various documentation resources, such as technical artic
 For more information [Sidebar | Docusaurus](https://docusaurus.io/docs/sidebar)
 
 ## About me
-To modify this section, go to the `src/pages/about/index.js` file. The SVG images featured on the site come from [Svg Repo](https://www.svgrepo.com/), and they are organized in the `static/img/` and `static/svg/` directories for images and SVG files, respectively. I created my distinctive avatar using Lensa, an innovative tool offered by Prisma AI. Visit [Lensa](https://prisma-ai.com/lensa) to explore Lensa's capabilities and craft your own personalized avatars or improve existing images.
+To modify this section, go to the `src/pages/about.md` file. 
 
 ## Social media
 Feel free to customize this code to suit your own social media links  in `data/social.ts`

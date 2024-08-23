@@ -117,10 +117,11 @@ module.exports = {
   ],
 };
 ```
-## 
-
 ## Homepage
 
 Since [blog-only mode](https://docusaurus.io/docs/blog#blog-only-mode) is active, the blog post list serves as your homepage by default. To avoid a Home path conflict, rename or delete the `src/pages/index.tsx` file. Alternatively, create a dedicated homepage that redirects to the blog list, similar to Docusaurus.
 
 To enhance the blog's visual appeal, we added a Hero component for a strong first impression. The SVG background for the homepage is located at `src/components/landing/Hero/img/hero_main.svg`. This illustration is sourced from [unDraw](https://undraw.co/illustrations), but you can also opt for a custom design by an illustrator.
+
+## Other pages
+[Tags](/blog/tags), [Archive](/blog/archive), [Friends](/friends), [Resources](/resources), [Projects](/project), and [About Me](/about) pages are all defined in the `src/pages` directory, with routes mapped according to the file names. For more details on creating pages, refer to [Creating Pages | Docusaurus](https://docusaurus.io/docs/creating-pages).

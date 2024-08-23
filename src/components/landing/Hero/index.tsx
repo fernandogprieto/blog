@@ -40,7 +40,7 @@ function Name() {
         e.currentTarget.style.setProperty('--y', `${e.clientY}px`)
       }}
     >
-      <Translate id="homepage.hero.greet">Hello! I am  </Translate>
+      <Translate id="homepage.hero.greet">Hello! I am</Translate>
       <span
         className={styles.name}
         onMouseMove={e => {
@@ -49,9 +49,9 @@ function Name() {
           e.currentTarget.style.setProperty('--mouse-y', `${bounding.y}px`)
         }}
       >
-        <Translate id="homepage.hero.name"> Fernando</Translate>
+        <Translate id="homepage.hero.name">Fernando</Translate>
       </span>
-      <span className="ml-1">👋</span>
+      <span className="ml-1"> 👋</span>
     </motion.div>
   )
 }

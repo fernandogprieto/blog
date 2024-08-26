@@ -64,7 +64,7 @@
     @apply w-full justify-self-center pt-16 h-full grid place-items-center;
   }
   .background svg {
-    @apply w-[90%] h-auto;
+    @apply w-auto h-auto;
   }
   .box {
     @apply w-12 h-12;

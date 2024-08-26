@@ -4,26 +4,21 @@
   letter-spacing: 0.04em;
   padding: 0;
 }
-
 .intro {
   @apply p-4 pl-16 relative z-10;
 }
-
 .intro > p {
   @apply my-6 text-[#6e7b8c] text-justify text-base leading-8;
   letter-spacing: -0.04em;
   text-shadow: 0 0 #8c99ab;
 }
-
 .hero_text {
   font-size: calc(1.5em + 1.2vw);
 }
-
 .name {
   --lighting-size: 300px;
   --lighting-color: var(--ifm-color-primary);
   --lighting-highlight-color: var(--ifm-color-primary-lightest);
-
   background-image: radial-gradient(
     var(--lighting-highlight-color),
     var(--lighting-color),
@@ -41,14 +36,13 @@
   color: transparent;
   background-clip: text;
 }
-
 .background {
-  @apply relative w-full h-[90%] grid place-items-center items-start;
+  @apply relative w-full h-auto grid place-items-center items-start;
   z-index: 5;
 }
 
 .background svg {
-  @apply w-[70%] h-auto;
+  @apply w-auto h-auto;
 }
 
 .circle {
@@ -56,50 +50,39 @@
   filter: blur(80px);
   z-index: -1;
 }
-
 .box {
   @apply absolute inline-flex justify-center items-center bg-transparent text-transparent backdrop-blur-[2px] shadow-[inset_1px_1px_5px_rgb(255,255,255,0.3),0_0_5px_rgb(0,0,0,0.2)] rounded-lg p-2 w-14 h-14;
 }
-
 @media (max-width: 1000px) {
   .hero {
     @apply grid-cols-1 grid-rows-[max-content_minmax(0,max-content)] items-start h-auto;
   }
-
   .intro {
     @apply p-0 pt-16 flex flex-col items-center;
   }
-
   .background {
     @apply w-full justify-self-center pt-16 h-full grid place-items-center;
   }
-
   .background svg {
     @apply w-[90%] h-auto;
   }
-
   .box {
     @apply w-12 h-12;
   }
 }
-
 @media (max-width: 570px) {
   .hero {
     @apply h-auto;
   }
-
   .background {
     @apply pt-8;
   }
-
   .background svg {
     @apply w-full h-auto;
   }
-
   .box {
     @apply w-8 h-8;
   }
-
   .intro {
     @apply pt-8;
   }

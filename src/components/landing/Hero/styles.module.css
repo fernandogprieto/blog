@@ -37,7 +37,7 @@
   background-clip: text;
 }
 .background {
-  @apply relative w-full h-[90%] grid place-items-center items-start;
+  @apply relative w-full h-auto grid place-items-center items-start;
   z-index: 5;
 }
 

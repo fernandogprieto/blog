@@ -2,15 +2,15 @@
   "name": "blog",
   "version": "3.0.0",
   "author": {
-    "url": "https://github.com/kuizuo",
-    "email": "hi@kuizuo.cn",
-    "name": "愧怍"
+    "url": "https://github.com/fernandogprieto",
+    "email": "prieto.fernandog@gmail.com",
+    "name": "Cloud Journey"
   },
   "repository": {
-    "url": "https://github.com/kuizuo/blog",
+    "url": "https://github.com/fernandogprieto/blog",
     "type": "git"
   },
-  "homepage": "https://kuizuo.cn",
+  "homepage": "https://fernandogprieto.com",
   "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",
@@ -23,7 +23,7 @@
     "serve": "docusaurus serve",
     "format": "biome format --write ./src",
     "lint": "biome check ./src",
-    "lint:fix": "biome check --apply-unsafe ./src",
+    "lint:fix": "biome check --write-unsafe ./src",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "index": "docker run -it --env-file=.env -e \"CONFIG=$(cat docsearch.json | jq -r tostring)\" algolia/docsearch-scraper"

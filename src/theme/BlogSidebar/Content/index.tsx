@@ -23,21 +23,14 @@ function BlogSidebarYearGroup({
     );
 }
 
-function BlogSidebarContent({
-    items,
-    yearGroupHeadingClassName,
-    ListComponent,
-}: Props): ReactNode {
+function BlogSidebarContent({ items, yearGroupHeadingClassName, ListComponent }: Props): ReactNode {
     const themeConfig = useThemeConfig();
     if (themeConfig.blog.sidebar.groupByYear) {
         const itemsByYear = groupBlogSidebarItemsByYear(items);
     return (
         <>
         {itemsByYear.map(([year, yearItems]) => (
-            <BlogSidebarYearGroup
-            key={year}
-            year={year}
-            yearGroupHeadingClassName={yearGroupHeadingClassName}>
+            <BlogSidebarYearGroup key={year} year={year} yearGroupHeadingClassName={yearGroupHeadingClassName}>
             <ListComponent items={yearItems} />
             </BlogSidebarYearGroup>
         ))}

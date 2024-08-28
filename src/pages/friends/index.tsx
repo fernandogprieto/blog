@@ -13,7 +13,7 @@ const DESCRIPTION = 'Having many good friends.'
 const ADD_FRIEND_URL = 'https://github.com/fernandogprieto/blog/edit/main/data/friends.tsx'
 const SITE_INFO = `
 title: 'Fernando Prieto'
-description: 'News about technology.'
+description: 'Cloud Engineer, Open Source, AI Enthusiast.'
 website: 'https://fernandogprieto.com'
 avatar: 'https://fernandogprieto.com/img/logo.png'
 `

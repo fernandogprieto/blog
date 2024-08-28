@@ -1,10 +1,9 @@
 import Link from '@docusaurus/Link'
 import { translate } from '@docusaurus/Translate'
-import { useBlogPost } from '@docusaurus/theme-common/internal'
 import { Icon } from '@iconify/react'
 import { cn } from '@site/src/lib/utils'
 import type { Props } from '@theme/BlogSidebar/Desktop'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 import styles from './styles.module.css'
 

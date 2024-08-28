@@ -15,7 +15,7 @@ export const projects: Project[] = [
     }),
     preview: '/img/project/blog.png',
     website: 'https://fernandogprieto.com/',
-    source: 'https://github.com/fernandogprieto/fgp-website',
+    source: 'https://github.com/fernandogprieto/blog',
     docs: 'https://www.fernandogprieto.com/docs/docusuarus-intro',
     tags: ['opensource', 'favorite', 'personal', 'i18n'],
     type: 'cloud',

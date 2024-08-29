@@ -1,6 +1,7 @@
 <h2 align="center">
 Fernando's Personal Blog
 </h2>
+
 <p align="center">
 <a href="https://vercel.com/new/clone?repository-url=https://github.com/fernandogprieto/blog/tree/main&project-name=blog&repo-name=blog" rel="nofollow"><img src="https://vercel.com/button"></a>
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/fernandogprieto/blog" rel="nofollow"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
@@ -29,7 +30,7 @@ If you want to build a similar site, you can directly [Fork](https://github.com/
 - 🌈 **Resource Navigation** - Collect and share useful and interesting resources.
 - 📦 **Project Showcase** - Showcase your projects, can be used as a portfolio.
 
-My theme customization implementation: [Docusaurus Theme Customization](https://fernandogprieto.com/docs/docusaurus-guides)
+My theme customization implementation: [Docusaurus Theme Customization](https://fernandogprieto.com/docs/docusaurus-intro)
 
 ## :wrench: Tech Stack
 

@@ -125,7 +125,7 @@ function HomepageHeader() {
 }
 ```
 
-### Markdown files 
+### Markdown files
 
 You can translate docs, blog and pages only whit this command`
 

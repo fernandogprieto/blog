@@ -8,7 +8,7 @@ keywords: [docusaurus-config, google analytics, cloud-project]
 
 ## docusaurus.config.ts
 
-`docusaurus.config.ts` This is the root of your website. 
+`docusaurus.config.ts` This is the root of your website.
 
 You can customize various aspects of your site, such as the logo, site name, author name, announcement bar at the top, navigation bar, and footer at the bottom.
 
@@ -41,14 +41,17 @@ module.exports = config
 For more information [docusaurus.config.ts | Docusaurus](https://docusaurus.io/docs/api/docusaurus-config)
 
 ## sidebar.js
+
 Designed for organizing various documentation resources, such as technical articles from the blog, and recommended tools. Each item displayed in the sidebar corresponds to a Markdown file, which can be easily managed as they are all stored in the `doc` directory.
 
 For more information [Sidebar | Docusaurus](https://docusaurus.io/docs/sidebar)
 
 ## About me
-To modify this section, go to the `src/pages/about.mdx` file. 
+
+To modify this section, go to the `src/pages/about.mdx` file.
 
 ## Social media
+
 Feel free to customize this code to suit your own social media links  in `data/social.ts`
 
 ```typescript title='social.ts' icon='logos:typescript-icon'
@@ -62,10 +65,12 @@ export type Social = {
 }
 ```
 
-## Others configs 
+## Others configs
+
 ### Google Analytics
+
 - First, you need to create an account on [Google Analytics](https://analytics.google.com).
-  
+
 ![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/ga-1.png)
 
 - Click on `Next` and create your Property name.
@@ -95,14 +100,16 @@ export type Social = {
 > [Google Analytics Plugin | Docusaurus](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-google-gtag)
 
 ### Plugin gtag
+
 - Install this plugin in your project:
-```
+
+```bash
 pnpm install --save @docusaurus/plugin-google-gtag
 ```
 
 - Configure the preset option and paste the `MEASUREMENT ID`.
-   
-```typescript title='docusaurus.config.ts' icon='logos:typescript-icon' 
+
+```typescript title='docusaurus.config.ts' icon='logos:typescript-icon'
 module.exports = {
   presets: [
     [
@@ -117,6 +124,7 @@ module.exports = {
   ],
 };
 ```
+
 ## Homepage
 
 Since [blog-only mode](https://docusaurus.io/docs/blog#blog-only-mode) is active, the blog post list serves as your homepage by default. To avoid a Home path conflict, rename or delete the `src/pages/index.tsx` file. Alternatively, create a dedicated homepage that redirects to the blog list, similar to Docusaurus.
@@ -124,4 +132,5 @@ Since [blog-only mode](https://docusaurus.io/docs/blog#blog-only-mode) is active
 To enhance the blog's visual appeal, we added a Hero component for a strong first impression. The SVG background for the homepage is located at `src/components/landing/Hero/img/hero_main.svg`. This illustration is sourced from [unDraw](https://undraw.co/illustrations), but you can also opt for a custom design by an illustrator.
 
 ## Other pages
+
 [Tags](/blog/tags), [Archive](/blog/archive), [Friends](/friends), [Resources](/resources), [Projects](/project), and [About Me](/about) pages are all defined in the `src/pages` directory, with routes mapped according to the file names. For more details on creating pages, refer to [Creating Pages | Docusaurus](https://docusaurus.io/docs/creating-pages).

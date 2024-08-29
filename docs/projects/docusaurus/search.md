@@ -7,13 +7,13 @@ authors: fernandogprieto
 
 > [Search | Docusaurus](https://docusaurus.io/docs/search) 
 
-
 ## Algolia
+
 There are a few options you can use to add search to your website. In this project I choose `Run Your Own by DocSearch`.
 
 > [Run your own | Docsearch](https://docsearch.algolia.com/docs/run-your-own)
 
-### Path:
+### Path
 
 - First you need to create an [Algolia account](https://www.algolia.com/)
 - Then create an index in indices:

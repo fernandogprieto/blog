@@ -51,7 +51,6 @@ jq-1.6
 
 - Then create a file in the project directory, `docsearch.json`. You could use a `docsearch-config` found at [algolia](https://github.com/algolia/docsearch-configs) to update the algolia settings for your site.
 
-   
 ```json title='docsearch.json' {2-4}
 {
   "index_name": "xxxx",

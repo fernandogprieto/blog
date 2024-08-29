@@ -30,7 +30,7 @@ If you want to build a similar site, you can directly [Fork](https://github.com/
 - 🌈 **Resource Navigation** - Collect and share useful and interesting resources.
 - 📦 **Project Showcase** - Showcase your projects, can be used as a portfolio.
 
-My theme customization implementation: [Docusaurus Theme Customization](https://fernandogprieto.com/docs/docusaurus-intro)
+My theme customization implementation: [Docusaurus Theme Customization](https://www.fernandogprieto.com/docs/docusuarus-intro)
 
 ## :wrench: Tech Stack
 

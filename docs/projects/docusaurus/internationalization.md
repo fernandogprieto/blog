@@ -5,8 +5,6 @@ title: Internationalization - i18n
 authors: fernandogprieto
 ---
 
-> [Internationalization(`18n) | Docusaurus](https://docusaurus.io/docs/i18n/introduction)
-
 ## Configure your site
 
 Modify the`docusaurus.config.js` file to incorporate i18n support for the Spanish language, based on your preference.
@@ -23,11 +21,14 @@ module.exports = {
   },
 };
 ```
-## Theme Config 
+
+> [Internationalization(`18n) | Docusaurus](https://docusaurus.io/docs/i18n/introduction)
+
+## Theme Config
 
 Add a navigation bar item of the `localeDropdown` type, allowing users to choose their preferred language:
 
-```js title='docusaurus.config.js'
+```ts title='docusaurus.config.ts'
 module.exports = {
   themeConfig: {
     navbar: {
@@ -43,20 +44,22 @@ module.exports = {
 ```
 
 Docusaurus, on its platform, includes an automatic translation feature that can be assessed through the following example:
-```
-npm run start -- --locale es
+
+```bash
+pnpm run start -- --locale es
 ```
 
 This tool provides preset translations for generic theme labels, such as "Next" and "Previous" in relation to pagination. You can explore the [default translations](https://github.com/facebook/docusaurus/tree/main/packages/docusaurus-theme-translations/locales) through the provided link.
 
 ## Translate
+
 The docusaurus `write-translation` command will statically analyze all React code files used in your site, extract calls to these APIs, and aggregate them in the code.json file
 
 ```bash
 npm run write-translations -- --locale es
 ```
 
-```
+```json
 website/i18n
      └── es
          ├── code.json                        
@@ -71,17 +74,17 @@ website/i18n
 
 To make modifications to the Docusaurus-theme-classic, you need to focus on the footer and navbar sections within the message area.
 
-### Config your ID 
+### Config your ID
 
 - The Translate component allows you to create multilingual Docusaurus websites, enabling translation of strings in your React components.
 
-```
+```bash
 import Translate from '@docusaurus/Translate';
 ```
 
-- Wrap the text you want to translate with the Translate component: 
-  
-```js title='src/pages/index.js'
+- Wrap the text you want to translate with the Translate component:
+
+```ts title='src/pages/index.ts'
 function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
@@ -104,9 +107,11 @@ function HomepageHeader() {
   );
 }
 ```
+
 ### code.json
+
 - Add the translation strings to the respective ID
-  
+
 ```json title='/i18n/es/code.json'
 {
   "homepage.welcome": {
@@ -119,6 +124,7 @@ function HomepageHeader() {
   },
 }
 ```
+
 ### Markdown files 
 
 You can translate docs, blog and pages only whit this command`
@@ -138,6 +144,7 @@ slug: /docusaurus-internationalization
 title: Internationalization - i18n 
 ---
 ```
+
 ```md title='i18n/es/docusaurus-plugin-content-docs/current/projects/docusaurus/internationalization.md'
 ---
 id: docusaurus-internationalization 

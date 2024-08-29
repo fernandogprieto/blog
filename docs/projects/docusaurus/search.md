@@ -5,12 +5,11 @@ title: Search
 authors: fernandogprieto
 ---
 
-> [Search | Docusaurus](https://docusaurus.io/docs/search) 
-
 ## Algolia
 
 There are a few options you can use to add search to your website. In this project I choose `Run Your Own by DocSearch`.
 
+> [Search | Docusaurus](https://docusaurus.io/docs/search)
 > [Run your own | Docsearch](https://docsearch.algolia.com/docs/run-your-own)
 
 ### Path
@@ -26,7 +25,7 @@ There are a few options you can use to add search to your website. In this proje
 
 - Put your API-ID and **Search-only-API-KEY** in you `docusaurus.config.js`:
 
-```js
+```ts
 themeConfig: {
   algolia: {
     appId: "xxxxxxxxxxx",
@@ -38,19 +37,20 @@ themeConfig: {
 
 - Create a `.env` in your file root, you need to use your Admin API Key
 
-```
+```json
 APPLICATION_ID=YOUR_APP_ID
 API_KEY=YOUR_API_KEY
 ```
 
-- Please ensure that you have installed [jq](https://github.com/stedolan/jq/wiki/Installation). However, I personally haven't installed it and simply used the following command: 
-  
-```
+- Please ensure that you have installed [jq](https://github.com/stedolan/jq/wiki/Installation). However, I personally haven't installed it and simply used the following command:
+
+```bash
 [root@fgpserver fernandogprieto.com]# jq --version
 jq-1.6
 ```
 
-- Then create a file in the project directory, `docsearch.json`. You could use a `docsearch-config` found at https://github.com/algolia/docsearch-configs to update the algolia settings for your site.
+- Then create a file in the project directory, `docsearch.json`. You could use a `docsearch-config` found at [algolia](https://github.com/algolia/docsearch-configs) to update the algolia settings for your site.
+
    
 ```json title='docsearch.json' {2-4}
 {
@@ -135,6 +135,7 @@ jq-1.6
   }
 }
 ```
+
 - Execute the Docker command to initiate the container and run the application as and admin:
 
 ```sh
@@ -169,4 +170,3 @@ docsearch:
   rules:
     - if: '$CI_COMMIT_TAG || $CI_COMMIT_BRANCH == "main" || $CI_COMMIT_BRANCH == "master"'
 ```
-

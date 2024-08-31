@@ -8,7 +8,7 @@
     "description": "The alt text of navbar logo"
   },
   "item.label.Project": {
-    "message": "Project",
+    "message": "Proyectos",
     "description": "Navbar item with label Project"
   },
   "item.label.Blog": {
@@ -20,19 +20,19 @@
     "description": "Navbar item with label Nexus"
   },
   "item.label.Archive": {
-    "message": "Archive",
+    "message": "Archivo",
     "description": "Navbar item with label Archive"
   },
   "item.label.Resources": {
-    "message": "Resources",
+    "message": "Recursos",
     "description": "Navbar item with label Resources"
   },
   "item.label.Friends": {
-    "message": "Friends",
+    "message": "Colaboradores",
     "description": "Navbar item with label Friends"
   },
   "item.label.Docs": {
-    "message": "Docs",
+    "message": "Documentación",
     "description": "Navbar item with label Docs"
   }
 }

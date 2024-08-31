@@ -517,5 +517,48 @@
   },
   "homepage.feature.enthusiast.description": {
     "message": "Aprendiendo sobre tecnologías de IA, me mantengo actualizado con los últimos avances, centrándome en proyectos de IA relacionados con infraestructura."
+  },
+  "project.myCloudJourney.title": {
+    "message": "Proyecto Cloud Journey",
+    "description": "Title for My Cloud Journey project"
+  },
+  "project.myCloudJourney.description": {
+    "message": "🖥️ Sitio web personal que destaca mis experiencias, experticia, blog y tutoriales en los dominios de computación en la nube.",
+    "description": "Description for My Cloud Journey project"
+  },
+  "project.cloudResumeChallenge.title": {
+    "message": "Desafío de Currículum en la Nube",
+    "description": "Title for Cloud Resume Challenge project"
+  },
+  "project.cloudResumeChallenge.description": {
+    "message": "📚 Construir y desplegar un sitio web de currículum personal utilizando los servicios de Google Cloud Platform, mostrando la experiencia y práctica en tecnología de la nube.",
+    "description": "Description for Cloud Resume Challenge project"
+  },
+  "project.discordproject.title": {
+    "message": "Proyecto Discord para una Comunidad",
+    "description": "Title for Collaboration Discord project GCP"
+  },
+  "project.discordproject.description": {
+    "message": "💬 Construir y mejorar un servidor de discord para un Comunidad de Google Cloud Santiago",
+    "description": "Description for GDGCloudSantiago Discord Project"
+  },
+  "project.dotfiles.description": {
+    "message": "Están diseñados para optimizar mi entorno de desarrollo para una eficiencia máxima y un flujo de trabajo sin interrupciones",
+    "description": "Description for Dotfiles project"
+  },
+  "projectType.cloud":{
+    "message": "Nube"
+  },
+  "projectType.collaboration": {
+    "message": "Colaboración"
+  },
+  "projectType.ai": {
+    "message": "IA"
+  },
+  "projectType.personal": {
+    "message": "Personal"
+  },
+  "projectType.other": {
+  "message": "Otros"
   }
 }

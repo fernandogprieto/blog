@@ -4,7 +4,7 @@
     "description": "The title for the blog used in SEO"
   },
   "description": {
-    "message": "Cloud News: A Blog about Tecnhologies",
+    "message": "Ingeniero en la Nube, Código Abierto, Entusiasta de la IA",
     "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {
@@ -12,3 +12,8 @@
     "description": "The label for the left sidebar"
   }
 }
+
+
+
+
+

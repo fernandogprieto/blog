@@ -106,7 +106,7 @@ export type TagType = 'favorite' | 'opensource' | 'product' | 'large' | 'persona
 export type ProjectType = 'cloud' | 'collaboration' | 'ai' | 'personal' | 'other'
 
 export const projectTypeMap = {
-  cloud: { label: translate({ id: 'projectType.cloud', message: 'Cloud' }) }, 
+  cloud: { label: translate({ message: 'Cloud' }) }, 
   collaboration: { label: translate({ id: 'projectType.collaboration', message: 'Colaboration', }) },
   ai: { label: translate({ id: 'projectType.ai', message: 'AI' }) },
   personal: { label: translate({ id: 'projectType.personal', message: 'Personal' }) },

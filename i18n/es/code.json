@@ -1,9 +1,9 @@
 {
   "theme.project.title": {
-    "message": "Exhibición de Proyectos"
+    "message": "Portafolio"
   },
   "theme.project.description": {
-    "message": "Este es mi portafolio de mi ardua práctica y aplicación en el campo de la tecnología"
+    "message": "Bienvenido! aquí están mis prácticas y aplicaciónes en el campo de la tecnología"
   },
   "theme.blog.archive.posts.unit": {
     "message": "publicaciones"
@@ -546,7 +546,7 @@
     "message": "Están diseñados para optimizar mi entorno de desarrollo para una eficiencia máxima y un flujo de trabajo sin interrupciones",
     "description": "Description for Dotfiles project"
   },
-  "projectType.cloud":{
+  "cloud":{
     "message": "Nube"
   },
   "projectType.collaboration": {
@@ -559,6 +559,9 @@
     "message": "Personal"
   },
   "projectType.other": {
-  "message": "Otros"
+    "message": "Otros"
+  },
+  "Open-Source": {
+    "message": "Código Abierto"
   }
 }

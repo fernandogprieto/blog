@@ -4,11 +4,11 @@
     "description": "The title of the footer links column with title=Nexus in the footer"
   },
   "link.title.Social Media": {
-    "message": "Social Media",
+    "message": "Redes Sociales",
     "description": "The title of the footer links column with title=Social Media in the footer"
   },
   "link.title.More": {
-    "message": "More",
+    "message": "Más",
     "description": "The title of the footer links column with title=More in the footer"
   },
   "link.item.label.Blog": {
@@ -16,19 +16,15 @@
     "description": "The label of footer link with label=Blog linking to blog"
   },
   "link.item.label.Archive": {
-    "message": "Archive",
+    "message": "Archivo",
     "description": "The label of footer link with label=Archive linking to blog/archive"
   },
   "link.item.label.Projects": {
-    "message": "Projects",
+    "message": "Proyectos",
     "description": "The label of footer link with label=Projects linking to project"
   },
-  "link.item.label.Frontend Examples": {
-    "message": "Frontend Examples",
-    "description": "The label of footer link with label=Frontend Examples linking to https://example.kuizuo.cn"
-  },
   "link.item.label.About me": {
-    "message": "About me",
+    "message": "Sobre mí",
     "description": "The label of footer link with label=About me linking to /about"
   },
   "link.item.label.LinkedIn": {
@@ -72,15 +68,15 @@
     "description": "The label of footer link with label=Uptime linking to https://uptime.kuizuo.cn"
   },
   "link.item.label.Friends": {
-    "message": "Friends",
+    "message": "Colaboradores",
     "description": "The label of footer link with label=Friends linking to friends"
   },
   "link.item.label.Resources": {
-    "message": "Resources",
+    "message": "Recursos",
     "description": "The label of footer link with label=Resources linking to resources"
   },
   "copyright": {
-    "message": "\n        <p>Copyright © 2023 - PRESENT | Built with Docusaurus.</p>\n        ",
+    "message": "\n        <p>Copyright © 2023 - PRESENTE | Hecho con Docusaurus .</p>\n        ",
     "description": "The footer copyright"
   }
 }

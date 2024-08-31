@@ -107,7 +107,7 @@ export type ProjectType = 'cloud' | 'collaboration' | 'ai' | 'personal' | 'other
 
 export const projectTypeMap = {
   cloud: ' 😶‍🌫️ Cloud', 
-  collaboration: '🤝Colaboration',
+  collaboration: '🤝Collaboration',
   ai: '🤖 AI',
   personal: '👨‍💻 Personal',
   other: ' 🗃️ Others',

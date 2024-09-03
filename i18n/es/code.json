@@ -22,6 +22,9 @@
   "theme.blog.title.new": {
     "message": "Blog"
   },
+  "theme.blog.description": {
+    "message": "Mi espacio acerca de mi experiencia en tecnología"
+  },
   "theme.blog.post.plurals": {
     "message": "Una publicación|{count} publicaciones",
     "description": "Etiqueta pluralizada para \"{count} publicaciones\". Use tantas formas plurales (separadas por \"|\") como soporte su idioma (ver https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"

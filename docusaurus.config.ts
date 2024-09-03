@@ -49,14 +49,15 @@ const config: Config = {
       },
       hideOnScroll: true,
       items: [
-        { label: 'Project', position: 'right', to: 'project' },
         { label: 'Blog', position: 'right', to: 'blog', },
+        { label: 'Project', position: 'right', to: 'project' },
+        { label: 'Friends', position: 'right',to: 'friends' },
         { label: 'Nexus', position: 'right', 
           items: [
             { label: 'Archive', to: 'blog/archive' },
-            { label: 'Resources', to: 'resources' },
-            { label: 'Friends', to: 'friends' },
             {label: 'Docs', to: 'docs/projects'},
+            { label: 'Resources', to: 'resources' },
+
           ],
         },
         {

@@ -1,6 +1,6 @@
 ---
 title: Microservices March 2023
-description: This is a nginx event with labs, guides and badge reward
+description: Este es un evento de ngix con laboratorios, guías y recompensa de insignia
 slug: /microservices-march-2023
 date: 2023-04-11
 authors: fernandogprieto
@@ -13,7 +13,7 @@ sticky: 8
 ## Mi experiencia en microservicios: Aprender y Programar
 
 Participé en [Microservicios Marzo 2023](https://www.nginx.com/c/microservices-march-2023-agenda/), un programa educativo gratuito de un mes de duración, diseñado
-para ampliar conocimientos sobre microservicios. 
+para ampliar conocimientos sobre microservicios.
 
 <!-- truncate -->
 

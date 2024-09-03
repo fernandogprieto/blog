@@ -16,6 +16,7 @@ This Year was an amazing improve to AI tools.
 <!-- truncate -->
 
 ## Microsoft Learn Cloud Challenge
+
 [The Microsoft Learn Cloud Skills Challenge](https://www.microsoft.com/en-US/cloudskillschallenge/build/registration) starts May 23, 2023 at 4:00 PM (16:00) UTC and ends on June 20, 2023 at 4:00 PM (16:00) UTC.
 You are required to provide an email address during registration for the Microsoft Learn Cloud Skills Challenge. You will be contacted via the email address you provide with the free certification details.
 By completing one challenge within the Microsoft Learn Cloud Skills Challenge, eligible individuals are entitled to one free Microsoft Certification exam.
@@ -46,7 +47,8 @@ Design and implement strategies for collaboration, code, infrastructure, source 
 - **Microsoft Build: Power Platform Developer Challenge**
 Learn how to build Power Apps, Automate Flows and extend the platform to complete business requirements and solve complex business problems.
 
-### Rewards eligible exams include:
+### Rewards eligible exams include
+
 - AI-900: Microsoft Azure AI Fundamentals
 Aligning Challenge: Microsoft Build: Azure AI Challenge
 
@@ -78,6 +80,7 @@ Congrats! You have earned a free Microsoft Certification exam, and we will send 
 ![Untitled](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/blog/trophy.png)
 
 ### DevOps Challenge
+
 - [Azure DevOps](https://dev.azure.com/)
 
 Azure DevOps is a cloud-based platform that provides a comprehensive set of tools for software development. It includes features for planning, coding, testing, deploying, and monitoring applications. Azure DevOps can be used to manage
@@ -85,7 +88,3 @@ both small and large projects, and it supports a variety of development methodol
 For example, the platform includes a built-in continuous integration and continuous delivery (CI/CD) pipeline. This pipeline automates the process of building, testing, and deploying applications, which helps to reduce the risk of errors.
 
 ![Untitled](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/blog/azure-DevOps.png)
-
-
-
-

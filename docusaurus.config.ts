@@ -281,9 +281,8 @@ Written by Docusaurus.
     defaultLocale: 'en',
     locales: ['en', 'es'],
     localeConfigs: {
-      en: {
-        htmlLang: 'en-GB',
-      },
+      en: { label: 'en', htmlLang: 'en-GB' },
+      es: { label: 'es' }
     },
   },
   onBrokenLinks: 'warn',

@@ -5,13 +5,15 @@ title: Búsqueda
 authors: fernandogprieto
 ---
 
-> [Search | Docusaurus](https://docusaurus.io/docs/search) 
+> [Search | Docusaurus](https://docusaurus.io/docs/search)
+
 ## Algolia
+
 Hay algunas opciones que puedes usar para agregar una función de búsqueda a tu sitio web. En este proyecto, elegí `Ejecutar tu propio DocSearch`.
 
 > [Ejecutar tu propio | Docsearch](https://docsearch.algolia.com/docs/run-your-own)
 
-### Pasos:
+### Pasos
 
 - Primero, necesitas crear una [cuenta de Algolia](https://www.algolia.com/)
 - Luego crea un índice en índices:
@@ -24,7 +26,7 @@ Hay algunas opciones que puedes usar para agregar una función de búsqueda a tu
 
 - Coloca tu ID de aplicación y **Clave API de búsqueda** en tu `docusaurus.config.js`:
 
-```js
+```ts
 themeConfig: {
   algolia: {
     appId: "xxxxxxxxxxx",
@@ -36,21 +38,20 @@ themeConfig: {
 
 - Crea un archivo `.env` en la raíz de tu proyecto, necesitarás usar tu clave API de administrador
 
-```
+```bash
 APPLICATION_ID=TU_APP_ID
 API_KEY=TU_API_KEY
 ```
 
 - Asegúrate de haber instalado [jq](https://github.com/stedolan/jq/wiki/Installation). Sin embargo, personalmente no lo he instalado y simplemente usé el siguiente comando:
 
-```
+```bash
 [root@fgpserver fernandogprieto.com]# jq --version
 jq-1.6
 ```
 
-- Luego crea un archivo en el directorio del proyecto, `docsearch.json`. Podrías usar un `docsearch-config` encontrado en https://github.com/algolia/docsearch-configs para actualizar la configuración de Algolia para tu sitio.
+- Luego crea un archivo en el directorio del proyecto, `docsearch.json`. Podrías usar un `docsearch-config` encontrado en [algolia](https://github.com/algolia/docsearch-configs) para actualizar la configuración de Algolia para tu sitio.
 
-   
 ```json title='docsearch.json' {2-4}
 {
   "index_name": "xxxx",
@@ -169,4 +170,3 @@ docsearch:
   rules:
     - if: '$CI_COMMIT_TAG || $CI_COMMIT_BRANCH == "main" || $CI_COMMIT_BRANCH == "master"'
 ```
-

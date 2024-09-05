@@ -4,15 +4,16 @@ slug: /docusaurus-swizzling
 title: Componente personalizado - Swizzling
 authors: fernandogprieto
 ---
-> [Swizzling](https://docusaurus.io/docs/swizzling)
 
 En Docusaurus, la personalización del diseño y los componentes se logra a través de un proceso llamado `swizzling`. El swizzling te permite reemplazar un componente del tema con tu propia implementación, ya sea mediante [extraer](https://docusaurus.io/docs/swizzling#ejecting) o [envolver](https://docusaurus.io/docs/swizzling#wrapping).
 
-```
-npm run swizzle -- --list
+> [Swizzling](https://docusaurus.io/docs/swizzling)
+
+```pnpm
+pnpm run swizzle -- --list
 ```
 
-```markdown title='Components available for swizzle in @docusaurus/theme-classic'
+```md title='Components available for swizzle in @docusaurus/theme-classic'
 ┌──────────────────────────────────────────┬───────────┬───────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 │ Component name                           │ Wrap      │ Eject     │ Description                                                                                                                      │
 ├──────────────────────────────────────────┼───────────┼───────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
@@ -60,7 +61,8 @@ npm run swizzle @docusaurus/theme-classic NotFound -- --eject
 ```
 
 - Este comando creará un nuevo archivo.js en la configuracion de tema:
-```
+
+```json
 sitio web
 ├── node_modules
 │   └── @docusaurus/theme-classic
@@ -70,6 +72,7 @@ sitio web
     └── theme
         └── NotFound.js
 ```
+
 - Edita tu nuevo tema.
 
 ![image](https://gitlab.com/fernandogprieto/fgp-website/-/raw/main/static/img/projects/docusaurus/swizzling.png)

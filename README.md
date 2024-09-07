@@ -1,3 +1,5 @@
+[![es](https://img.shields.io/badge/lang-es-blue.svg)](https://github.com/fernandogprieto/blog/blob/main/README.es.md)
+
 <h2 align="center">
 Fernando's Personal Blog
 </h2>

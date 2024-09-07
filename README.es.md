@@ -1,4 +1,4 @@
-[![en](https://img.shields.io/badge/lang-english-blue.svg)](https://github.com/fernandogprieto/blog/blob/main/README.md)
+[![en](https://img.shields.io/badge/Idioma-en-blue.svg)](https://github.com/fernandogprieto/blog/blob/main/README.md)
 
 <h2 align="center">
 Blog Personal de Fernando

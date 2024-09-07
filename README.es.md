@@ -1,3 +1,4 @@
+[![en](https://img.shields.io/badge/lang-en-yellow.svg)](https://github.com/fernandogprieto/blog/blob/main/README.md)
 
 <h2 align="center">
 Blog Personal de Fernando
@@ -29,7 +30,7 @@ Si quieres construir un sitio similar, puedes [Forkear](https://github.com/kuizu
 - 🏞️ **Vista de Inicio** - Muestra las últimas publicaciones del blog, proyectos, características personales, stacks tecnológicos, etc.
 - 🗃️ **Vistas de Publicaciones del Blog** - Diferentes vistas de publicaciones del blog: lista, cuadrícula.
 - 🌈 **Navegación de Recursos** - Recolecta y comparte recursos útiles e interesantes.
-- 📦 **Muestra de Proyectos** - Muestra tus proyectos, puede usarse como un portafolio.
+- 📦 **Portafolio** - Muestra tus proyectos, puede usarse como un portafolio.
 
 Mi implementación de personalización de tema: [Personalización del Tema de Docusaurus](https://www.fernandogprieto.com/docs/docusuarus-intro)
 

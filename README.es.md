@@ -85,6 +85,10 @@ pnpm start
 pnpm build
 ```
 
+## 📷 Capturas de Pantalla
+
+<img width="1471" alt="Live Demo" src="https://github.com/fernandogprieto/blog/blob/main/static/img/og-es.png?raw=true"> 
+
 ## 📝 Licencia
 
 [MIT](./LICENSE)

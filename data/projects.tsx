@@ -32,7 +32,7 @@ export const projects: Project[] = [
       description: 'Description for Cloud Resume Challenge project',
     }),
     preview: '/img/project/docusaurus/crc-gcp.png',
-    website: 'https://www.fernandogprieto.dev',
+    website: 'https://crc.fernandogprieto.com',
     source: 'https://github.com/fernandogprieto/cloud-resume-challenge-gcp',
     docs: 'https://www.fernandogprieto.com/docs/crc-gcp-intro',
     tags: ['opensource', 'favorite'],

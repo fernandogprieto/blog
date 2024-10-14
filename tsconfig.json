@@ -3,7 +3,7 @@
   "compilerOptions": {
     "lib": ["DOM", "ESNext"],
     "baseUrl": ".",
-    "resolveJsonModule": true,
+    "resolveJsonModule": false,
     "allowUnreachableCode": false,
     "exactOptionalPropertyTypes": false,
     "noFallthroughCasesInSwitch": true,

@@ -163,7 +163,7 @@ const config: Config = {
         },
         blog: false,
         theme: {
-          customCss: ['./src/css/custom.css'],
+          customCss: ['./src/css/custom.css', './src/css/tweet-theme.css'],
         },
         sitemap: {
           priority: 0.5,

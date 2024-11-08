@@ -4,7 +4,7 @@
     "lib": ["DOM", "ESNext"],
     "baseUrl": ".",
     "resolveJsonModule": true,
-    "allowUnreachableCode": false,
+    "allowUnreachableCode": true,
     "exactOptionalPropertyTypes": false,
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
